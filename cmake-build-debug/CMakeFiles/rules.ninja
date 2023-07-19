@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: cub3D
+# Project: rep_for_cub3d
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -14,7 +14,7 @@
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__cub3D_Debug
+rule C_COMPILER__rep_for_cub3d_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +24,7 @@ rule C_COMPILER__cub3D_Debug
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__cub3D_Debug
+rule C_EXECUTABLE_LINKER__rep_for_cub3d_Debug
   command = $PRE_LINK && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "/Users/vchizhov/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/vchizhov/Desktop/cub3d/cub3d -B/Users/vchizhov/Desktop/cub3d/cub3d/cmake-build-debug
+  command = "/Users/vchizhov/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/vchizhov/Desktop/rep_for_cub3d -B/Users/vchizhov/Desktop/rep_for_cub3d/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

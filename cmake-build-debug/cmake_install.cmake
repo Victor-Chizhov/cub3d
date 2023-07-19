@@ -1,4 +1,4 @@
-# Install script for directory: /Users/vchizhov/Desktop/cub3d/cub3d
+# Install script for directory: /Users/vchizhov/Desktop/rep_for_cub3d
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/vchizhov/Desktop/cub3d/cub3d/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/vchizhov/Desktop/rep_for_cub3d/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

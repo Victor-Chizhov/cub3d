@@ -50,15 +50,30 @@ typedef struct s_game {
 	char *east;
 	char *floor;
 	char *ceilling;
+	int count_arguments_in_file;
 }			t_game;
 
 
 void	print_error(int a);
 void	read_arr(char **arr);
 int		len_pointer_arr(char **arr);
-char	**create_dublicate(char **arr);
+char	**create_copy_arr(char **arr);
 void	free_arr(char **arr);
 char *remove_spaces_from_str(char *string);
+
+//=============== COPY FROM FILE ATTRIBUTES =====================
+char *check_symbols_f_and_c(char *check_file);
+char *copy_from_file(char *check_file, t_game *info);
+char *copy_from_file_for_f_and_c(char *check_file, t_game *info);
+void check_open_file(char **check_file, t_game *info);
+
+// =============== COPY FROM FILE MAP ==========================
+
+char **copy_map(char **check_file);
+char **copy_after_check_map(char **check_file, int start, int end);
+int end_map(char **check_file);
+int start_map(char **check_file);
+void check_map_in_end(char **check_file);
 
 // =============== CHECK MAP ========================
 
@@ -71,8 +86,7 @@ void	check_map(t_game *map);
 // ============== PARSING FILE TO MAP ===============
 
 void	init_info(t_game *map);
-void	check_open_file(char **open_file, t_game *map);
-void	check_count_players_and_exits(char *open_file, t_game *map);
+void	check_count_players_and_exits(char **open_file, t_game *info);
 void	parsing_file(char *av, t_game *map);
 void	delete_element(char **open_file, int index);
 

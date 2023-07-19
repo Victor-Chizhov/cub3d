@@ -19,28 +19,28 @@ void	print_error(int a)
 	exit(1);
 }
 
-char	**create_dublicate(char **arr)
+char	**create_copy_arr(char **arr)
 {
-	char	**dublicate;
+	char	**copy_arr;
 	int		i;
 	int		j;
 
 	i = 0;
-	dublicate = malloc(len_pointer_arr(arr) * sizeof(char *) + 8);
+	copy_arr = malloc(len_pointer_arr(arr) * sizeof(char *) + 8);
 	while (i < len_pointer_arr(arr))
 	{
 		j = 0;
-		dublicate[i] = malloc(ft_strlen(arr[i]) * sizeof(char) + 1);
+		copy_arr[i] = malloc(ft_strlen(arr[i]) * sizeof(char) + 1);
 		while (arr[i][j])
 		{
-			dublicate[i][j] = arr[i][j];
+			copy_arr[i][j] = arr[i][j];
 			j++;
 		}
-		dublicate[i][j] = '\0';
+		copy_arr[i][j] = '\0';
 		i++;
 	}
-	dublicate[i] = NULL;
-	return (dublicate);
+	copy_arr[i] = NULL;
+	return (copy_arr);
 }
 
 void	read_arr(char **arr)

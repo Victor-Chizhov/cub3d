@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/vchizhov/Desktop/cub3d/cub3d/cmake-build-debug"
+			"value" : "/Users/vchizhov/Desktop/rep_for_cub3d/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -383,7 +383,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/vchizhov/Desktop/cub3d/cub3d/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/vchizhov/Desktop/rep_for_cub3d/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -443,7 +443,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/vchizhov/Desktop/cub3d/cub3d"
+			"value" : "/Users/vchizhov/Desktop/rep_for_cub3d"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -723,7 +723,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "cub3D"
+			"value" : "rep_for_cub3d"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1006,7 +1006,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "cub3D_BINARY_DIR",
+			"name" : "rep_for_cub3d_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1015,10 +1015,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/vchizhov/Desktop/cub3d/cub3d/cmake-build-debug"
+			"value" : "/Users/vchizhov/Desktop/rep_for_cub3d/cmake-build-debug"
 		},
 		{
-			"name" : "cub3D_IS_TOP_LEVEL",
+			"name" : "rep_for_cub3d_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1030,7 +1030,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "cub3D_SOURCE_DIR",
+			"name" : "rep_for_cub3d_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1039,7 +1039,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/vchizhov/Desktop/cub3d/cub3d"
+			"value" : "/Users/vchizhov/Desktop/rep_for_cub3d"
 		}
 	],
 	"kind" : "cache",
