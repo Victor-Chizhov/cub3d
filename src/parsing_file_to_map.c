@@ -116,6 +116,23 @@ char *copy_from_file(char *check_file)
 	return new;
 }
 
+char *copy_from_file_for_f_and_c(char *check_file)
+{
+	char *new;
+
+	new = NULL;
+
+	if (!check_symbols_f_and_c(check_file))
+		print_error(1);
+	else
+	{
+		new = ft_substr(check_file, 1, ft_strlen(check_file) - 1);
+		free(check_file);
+		check_file = NULL;
+	}
+	return new;
+}
+
 void	check_open_file(char **check_file, t_game *info)
 {
 	int	i;
@@ -130,54 +147,13 @@ void	check_open_file(char **check_file, t_game *info)
 		while(check_file[i][j] && check_file[i][j] == ' ')
 			j++;
 		if(check_file[i][j] == 'N' && check_file[i][j + 1] == 'O' && check_file[i][j + 2] == ' ')
-		{
-//			if (len_pointer_arr(ft_split(check_file[i], ' ')) != 2)
-//				print_error(1);
-//			else
-//			{
-//				arr = ft_split(check_file[i], ' ');
-//				info->north = ft_strdup(arr[1]);
-//				free(check_file[i]);
-//				check_file[i] = ft_strdup(" ");
-//			}
 			info->north = copy_from_file(check_file[i]);
-		}
 		else if (check_file[i][j] == 'S' && check_file[i][j + 1] == 'O' && check_file[i][j + 2] == ' ')
-		{
-			if (len_pointer_arr(ft_split(check_file[i], ' ')) != 2)
-				print_error(1);
-			else
-			{
-				arr = ft_split(check_file[i], ' ');
-				info->south = ft_strdup(arr[1]);
-				free(check_file[i]);
-				check_file[i] = ft_strdup(" ");
-			}
-		}
+			info->south = copy_from_file(check_file[i]);
 		else if (check_file[i][j] == 'W' && check_file[i][j + 1] == 'E' && check_file[i][j + 2] == ' ')
-		{
-			if (len_pointer_arr(ft_split(check_file[i], ' ')) != 2)
-				print_error(1);
-			else
-			{
-				arr = ft_split(check_file[i], ' ');
-				info->west = ft_strdup(arr[1]);
-				free(check_file[i]);
-				check_file[i] = ft_strdup(" ");
-			}
-		}
+			info->west = copy_from_file(check_file[i]);
 		else if (check_file[i][j] == 'E' && check_file[i][j + 1] == 'A' && check_file[i][j + 2] == ' ')
-		{
-			if (len_pointer_arr(ft_split(check_file[i], ' ')) != 2)
-				print_error(1);
-			else
-			{
-				arr = ft_split(check_file[i], ' ');
-				info->east = ft_strdup(arr[1]);
-				free(check_file[i]);
-				check_file[i] = ft_strdup(" ");
-			}
-		}
+			info->east = copy_from_file(check_file[i]);
 		else if (check_file[i][j] == 'F' && check_file[i][j + 1] == ' ')
 		{
 			if (!check_symbols_f_and_c(check_file[i])) {
