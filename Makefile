@@ -8,7 +8,9 @@ SRCS =	./src/cub3d.c \
 		./src/utils.c \
 		./src/parsing_file_to_map.c \
 		./src/copy_from_file_attributes.c \
-		./src/copy_from_file_map.c
+		./src/copy_from_file_map.c \
+		./src/check_map.c \
+		./src/check_wall_map.c \
 
 
 HEADER = ./include/cub3d.h

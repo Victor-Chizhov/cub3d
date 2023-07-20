@@ -93,14 +93,14 @@ void	parsing_file(char *av, t_game *info)
 	check_open_file(check_file, info);
 	check_count_players_and_exits(check_file, info);
 	info->map = copy_map(check_file);
+	check_every_string_of_map(info);
+	check_wall_map(info);
 	read_arr(info->map);
-	check_map(info);
 //	check_no_exit(map);
 
 
-//	read_arr(check_file);
-//	free(open_file);
-//	free_arr(check_file);
+	free(open_file);
+	free_arr(check_file);
 
 //	read_arr(info->map);
 //	printf("info->NO = %s\n", info->north);

@@ -77,11 +77,12 @@ void check_map_in_end(char **check_file);
 
 // =============== CHECK MAP ========================
 
-void	check_first_string_map(t_game *map);
-void	check_last_string_map(t_game *map);
-int		check_other_string_map(char *string);
-void	check_wall_map(t_game *map);
-void	check_map(t_game *map);
+void	check_first_string_of_map(t_game *info);
+void	check_last_string_of_map(t_game *info);
+int		check_other_string_of_map(char *string);
+void	check_wall_map(t_game *info);
+void	check_every_string_of_map(t_game *info);
+
 
 // ============== PARSING FILE TO MAP ===============
 

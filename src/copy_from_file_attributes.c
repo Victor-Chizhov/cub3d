@@ -77,7 +77,7 @@ void	check_open_file(char **check_file, t_game *info)
 		i++;
 	}
 	if (info->count_arguments_in_file != 6) {
-		printf("count_arguments_in_file: no 6");
+		printf("count_arguments_in_file: no 6\n");
 		print_error(1);
 	}
 }
