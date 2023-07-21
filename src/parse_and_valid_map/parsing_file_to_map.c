@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/cub3d.h"
+#include "../../include/cub3d.h"
 
 
 void	init_info(t_game *info)
@@ -95,18 +95,18 @@ void	parsing_file(char *av, t_game *info)
 	info->map = copy_map(check_file);
 	check_every_string_of_map(info);
 	check_wall_map(info);
-	read_arr(info->map);
+//	read_arr(info->map);
 //	check_no_exit(map);
 
 
 	free(open_file);
 	free_arr(check_file);
 
-//	read_arr(info->map);
-//	printf("info->NO = %s\n", info->north);
-//	printf("info->SO = %s\n", info->south);
-//	printf("info->WE = %s\n", info->west);
-//	printf("info->EA = %s\n", info->east);
-//	printf("info->F = %s\n", info->floor);
-//	printf("info->C = %s\n", info->ceilling);
+	read_arr(info->map);
+	printf("info->NO = %s\n", info->north);
+	printf("info->SO = %s\n", info->south);
+	printf("info->WE = %s\n", info->west);
+	printf("info->EA = %s\n", info->east);
+	printf("info->F = %s\n", info->floor);
+	printf("info->C = %s\n", info->ceilling);
 }

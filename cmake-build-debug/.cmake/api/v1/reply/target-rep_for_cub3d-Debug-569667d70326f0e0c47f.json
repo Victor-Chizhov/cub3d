@@ -98,7 +98,10 @@
 				49,
 				50,
 				51,
-				52
+				52,
+				53,
+				54,
+				55
 			]
 		}
 	],
@@ -180,7 +183,10 @@
 				49,
 				50,
 				51,
-				52
+				52,
+				53,
+				54,
+				55
 			]
 		},
 		{
@@ -210,7 +216,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/parsing_file_to_map.c",
+			"path" : "src/parse_and_valid_map/parsing_file_to_map.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -495,25 +501,43 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/copy_from_file_attributes.c",
+			"path" : "src/parse_and_valid_map/copy_from_file_attributes.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/copy_from_file_map.c",
+			"path" : "src/parse_and_valid_map/copy_from_file_map.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/check_map.c",
+			"path" : "src/parse_and_valid_map/check_map.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/check_closed_map.c",
+			"path" : "src/parse_and_valid_map/check_wall_map.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/create_scene/my_hook_param.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/create_scene/move_player.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/create_scene/init_window_with_map.c",
 			"sourceGroupIndex" : 0
 		}
 	],

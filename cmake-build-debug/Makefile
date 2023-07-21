@@ -1161,101 +1161,77 @@ libft/ft_toupper.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/libft/ft_toupper.c.s
 .PHONY : libft/ft_toupper.c.s
 
-src/check_closed_map.o: src/check_closed_map.c.o
-.PHONY : src/check_closed_map.o
+src/create_scene/init_window_with_map.o: src/create_scene/init_window_with_map.c.o
+.PHONY : src/create_scene/init_window_with_map.o
 
 # target to build an object file
-src/check_closed_map.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/check_closed_map.c.o
-.PHONY : src/check_closed_map.c.o
+src/create_scene/init_window_with_map.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.o
+.PHONY : src/create_scene/init_window_with_map.c.o
 
-src/check_closed_map.i: src/check_closed_map.c.i
-.PHONY : src/check_closed_map.i
+src/create_scene/init_window_with_map.i: src/create_scene/init_window_with_map.c.i
+.PHONY : src/create_scene/init_window_with_map.i
 
 # target to preprocess a source file
-src/check_closed_map.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/check_closed_map.c.i
-.PHONY : src/check_closed_map.c.i
+src/create_scene/init_window_with_map.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.i
+.PHONY : src/create_scene/init_window_with_map.c.i
 
-src/check_closed_map.s: src/check_closed_map.c.s
-.PHONY : src/check_closed_map.s
+src/create_scene/init_window_with_map.s: src/create_scene/init_window_with_map.c.s
+.PHONY : src/create_scene/init_window_with_map.s
 
 # target to generate assembly for a file
-src/check_closed_map.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/check_closed_map.c.s
-.PHONY : src/check_closed_map.c.s
+src/create_scene/init_window_with_map.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.s
+.PHONY : src/create_scene/init_window_with_map.c.s
 
-src/check_map.o: src/check_map.c.o
-.PHONY : src/check_map.o
+src/create_scene/move_player.o: src/create_scene/move_player.c.o
+.PHONY : src/create_scene/move_player.o
 
 # target to build an object file
-src/check_map.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/check_map.c.o
-.PHONY : src/check_map.c.o
+src/create_scene/move_player.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.o
+.PHONY : src/create_scene/move_player.c.o
 
-src/check_map.i: src/check_map.c.i
-.PHONY : src/check_map.i
+src/create_scene/move_player.i: src/create_scene/move_player.c.i
+.PHONY : src/create_scene/move_player.i
 
 # target to preprocess a source file
-src/check_map.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/check_map.c.i
-.PHONY : src/check_map.c.i
+src/create_scene/move_player.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.i
+.PHONY : src/create_scene/move_player.c.i
 
-src/check_map.s: src/check_map.c.s
-.PHONY : src/check_map.s
+src/create_scene/move_player.s: src/create_scene/move_player.c.s
+.PHONY : src/create_scene/move_player.s
 
 # target to generate assembly for a file
-src/check_map.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/check_map.c.s
-.PHONY : src/check_map.c.s
+src/create_scene/move_player.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.s
+.PHONY : src/create_scene/move_player.c.s
 
-src/copy_from_file_attributes.o: src/copy_from_file_attributes.c.o
-.PHONY : src/copy_from_file_attributes.o
+src/create_scene/my_hook_param.o: src/create_scene/my_hook_param.c.o
+.PHONY : src/create_scene/my_hook_param.o
 
 # target to build an object file
-src/copy_from_file_attributes.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/copy_from_file_attributes.c.o
-.PHONY : src/copy_from_file_attributes.c.o
+src/create_scene/my_hook_param.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.o
+.PHONY : src/create_scene/my_hook_param.c.o
 
-src/copy_from_file_attributes.i: src/copy_from_file_attributes.c.i
-.PHONY : src/copy_from_file_attributes.i
-
-# target to preprocess a source file
-src/copy_from_file_attributes.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/copy_from_file_attributes.c.i
-.PHONY : src/copy_from_file_attributes.c.i
-
-src/copy_from_file_attributes.s: src/copy_from_file_attributes.c.s
-.PHONY : src/copy_from_file_attributes.s
-
-# target to generate assembly for a file
-src/copy_from_file_attributes.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/copy_from_file_attributes.c.s
-.PHONY : src/copy_from_file_attributes.c.s
-
-src/copy_from_file_map.o: src/copy_from_file_map.c.o
-.PHONY : src/copy_from_file_map.o
-
-# target to build an object file
-src/copy_from_file_map.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/copy_from_file_map.c.o
-.PHONY : src/copy_from_file_map.c.o
-
-src/copy_from_file_map.i: src/copy_from_file_map.c.i
-.PHONY : src/copy_from_file_map.i
+src/create_scene/my_hook_param.i: src/create_scene/my_hook_param.c.i
+.PHONY : src/create_scene/my_hook_param.i
 
 # target to preprocess a source file
-src/copy_from_file_map.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/copy_from_file_map.c.i
-.PHONY : src/copy_from_file_map.c.i
+src/create_scene/my_hook_param.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.i
+.PHONY : src/create_scene/my_hook_param.c.i
 
-src/copy_from_file_map.s: src/copy_from_file_map.c.s
-.PHONY : src/copy_from_file_map.s
+src/create_scene/my_hook_param.s: src/create_scene/my_hook_param.c.s
+.PHONY : src/create_scene/my_hook_param.s
 
 # target to generate assembly for a file
-src/copy_from_file_map.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/copy_from_file_map.c.s
-.PHONY : src/copy_from_file_map.c.s
+src/create_scene/my_hook_param.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.s
+.PHONY : src/create_scene/my_hook_param.c.s
 
 src/cub3d.o: src/cub3d.c.o
 .PHONY : src/cub3d.o
@@ -1281,29 +1257,125 @@ src/cub3d.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/cub3d.c.s
 .PHONY : src/cub3d.c.s
 
-src/parsing_file_to_map.o: src/parsing_file_to_map.c.o
-.PHONY : src/parsing_file_to_map.o
+src/parse_and_valid_map/check_map.o: src/parse_and_valid_map/check_map.c.o
+.PHONY : src/parse_and_valid_map/check_map.o
 
 # target to build an object file
-src/parsing_file_to_map.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parsing_file_to_map.c.o
-.PHONY : src/parsing_file_to_map.c.o
+src/parse_and_valid_map/check_map.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_map.c.o
+.PHONY : src/parse_and_valid_map/check_map.c.o
 
-src/parsing_file_to_map.i: src/parsing_file_to_map.c.i
-.PHONY : src/parsing_file_to_map.i
+src/parse_and_valid_map/check_map.i: src/parse_and_valid_map/check_map.c.i
+.PHONY : src/parse_and_valid_map/check_map.i
 
 # target to preprocess a source file
-src/parsing_file_to_map.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parsing_file_to_map.c.i
-.PHONY : src/parsing_file_to_map.c.i
+src/parse_and_valid_map/check_map.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_map.c.i
+.PHONY : src/parse_and_valid_map/check_map.c.i
 
-src/parsing_file_to_map.s: src/parsing_file_to_map.c.s
-.PHONY : src/parsing_file_to_map.s
+src/parse_and_valid_map/check_map.s: src/parse_and_valid_map/check_map.c.s
+.PHONY : src/parse_and_valid_map/check_map.s
 
 # target to generate assembly for a file
-src/parsing_file_to_map.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parsing_file_to_map.c.s
-.PHONY : src/parsing_file_to_map.c.s
+src/parse_and_valid_map/check_map.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_map.c.s
+.PHONY : src/parse_and_valid_map/check_map.c.s
+
+src/parse_and_valid_map/check_wall_map.o: src/parse_and_valid_map/check_wall_map.c.o
+.PHONY : src/parse_and_valid_map/check_wall_map.o
+
+# target to build an object file
+src/parse_and_valid_map/check_wall_map.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_wall_map.c.o
+.PHONY : src/parse_and_valid_map/check_wall_map.c.o
+
+src/parse_and_valid_map/check_wall_map.i: src/parse_and_valid_map/check_wall_map.c.i
+.PHONY : src/parse_and_valid_map/check_wall_map.i
+
+# target to preprocess a source file
+src/parse_and_valid_map/check_wall_map.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_wall_map.c.i
+.PHONY : src/parse_and_valid_map/check_wall_map.c.i
+
+src/parse_and_valid_map/check_wall_map.s: src/parse_and_valid_map/check_wall_map.c.s
+.PHONY : src/parse_and_valid_map/check_wall_map.s
+
+# target to generate assembly for a file
+src/parse_and_valid_map/check_wall_map.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_wall_map.c.s
+.PHONY : src/parse_and_valid_map/check_wall_map.c.s
+
+src/parse_and_valid_map/copy_from_file_attributes.o: src/parse_and_valid_map/copy_from_file_attributes.c.o
+.PHONY : src/parse_and_valid_map/copy_from_file_attributes.o
+
+# target to build an object file
+src/parse_and_valid_map/copy_from_file_attributes.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/copy_from_file_attributes.c.o
+.PHONY : src/parse_and_valid_map/copy_from_file_attributes.c.o
+
+src/parse_and_valid_map/copy_from_file_attributes.i: src/parse_and_valid_map/copy_from_file_attributes.c.i
+.PHONY : src/parse_and_valid_map/copy_from_file_attributes.i
+
+# target to preprocess a source file
+src/parse_and_valid_map/copy_from_file_attributes.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/copy_from_file_attributes.c.i
+.PHONY : src/parse_and_valid_map/copy_from_file_attributes.c.i
+
+src/parse_and_valid_map/copy_from_file_attributes.s: src/parse_and_valid_map/copy_from_file_attributes.c.s
+.PHONY : src/parse_and_valid_map/copy_from_file_attributes.s
+
+# target to generate assembly for a file
+src/parse_and_valid_map/copy_from_file_attributes.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/copy_from_file_attributes.c.s
+.PHONY : src/parse_and_valid_map/copy_from_file_attributes.c.s
+
+src/parse_and_valid_map/copy_from_file_map.o: src/parse_and_valid_map/copy_from_file_map.c.o
+.PHONY : src/parse_and_valid_map/copy_from_file_map.o
+
+# target to build an object file
+src/parse_and_valid_map/copy_from_file_map.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/copy_from_file_map.c.o
+.PHONY : src/parse_and_valid_map/copy_from_file_map.c.o
+
+src/parse_and_valid_map/copy_from_file_map.i: src/parse_and_valid_map/copy_from_file_map.c.i
+.PHONY : src/parse_and_valid_map/copy_from_file_map.i
+
+# target to preprocess a source file
+src/parse_and_valid_map/copy_from_file_map.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/copy_from_file_map.c.i
+.PHONY : src/parse_and_valid_map/copy_from_file_map.c.i
+
+src/parse_and_valid_map/copy_from_file_map.s: src/parse_and_valid_map/copy_from_file_map.c.s
+.PHONY : src/parse_and_valid_map/copy_from_file_map.s
+
+# target to generate assembly for a file
+src/parse_and_valid_map/copy_from_file_map.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/copy_from_file_map.c.s
+.PHONY : src/parse_and_valid_map/copy_from_file_map.c.s
+
+src/parse_and_valid_map/parsing_file_to_map.o: src/parse_and_valid_map/parsing_file_to_map.c.o
+.PHONY : src/parse_and_valid_map/parsing_file_to_map.o
+
+# target to build an object file
+src/parse_and_valid_map/parsing_file_to_map.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/parsing_file_to_map.c.o
+.PHONY : src/parse_and_valid_map/parsing_file_to_map.c.o
+
+src/parse_and_valid_map/parsing_file_to_map.i: src/parse_and_valid_map/parsing_file_to_map.c.i
+.PHONY : src/parse_and_valid_map/parsing_file_to_map.i
+
+# target to preprocess a source file
+src/parse_and_valid_map/parsing_file_to_map.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/parsing_file_to_map.c.i
+.PHONY : src/parse_and_valid_map/parsing_file_to_map.c.i
+
+src/parse_and_valid_map/parsing_file_to_map.s: src/parse_and_valid_map/parsing_file_to_map.c.s
+.PHONY : src/parse_and_valid_map/parsing_file_to_map.s
+
+# target to generate assembly for a file
+src/parse_and_valid_map/parsing_file_to_map.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/parsing_file_to_map.c.s
+.PHONY : src/parse_and_valid_map/parsing_file_to_map.c.s
 
 src/utils.o: src/utils.c.o
 .PHONY : src/utils.o
@@ -1467,24 +1539,33 @@ help:
 	@echo "... libft/ft_toupper.o"
 	@echo "... libft/ft_toupper.i"
 	@echo "... libft/ft_toupper.s"
-	@echo "... src/check_closed_map.o"
-	@echo "... src/check_closed_map.i"
-	@echo "... src/check_closed_map.s"
-	@echo "... src/check_map.o"
-	@echo "... src/check_map.i"
-	@echo "... src/check_map.s"
-	@echo "... src/copy_from_file_attributes.o"
-	@echo "... src/copy_from_file_attributes.i"
-	@echo "... src/copy_from_file_attributes.s"
-	@echo "... src/copy_from_file_map.o"
-	@echo "... src/copy_from_file_map.i"
-	@echo "... src/copy_from_file_map.s"
+	@echo "... src/create_scene/init_window_with_map.o"
+	@echo "... src/create_scene/init_window_with_map.i"
+	@echo "... src/create_scene/init_window_with_map.s"
+	@echo "... src/create_scene/move_player.o"
+	@echo "... src/create_scene/move_player.i"
+	@echo "... src/create_scene/move_player.s"
+	@echo "... src/create_scene/my_hook_param.o"
+	@echo "... src/create_scene/my_hook_param.i"
+	@echo "... src/create_scene/my_hook_param.s"
 	@echo "... src/cub3d.o"
 	@echo "... src/cub3d.i"
 	@echo "... src/cub3d.s"
-	@echo "... src/parsing_file_to_map.o"
-	@echo "... src/parsing_file_to_map.i"
-	@echo "... src/parsing_file_to_map.s"
+	@echo "... src/parse_and_valid_map/check_map.o"
+	@echo "... src/parse_and_valid_map/check_map.i"
+	@echo "... src/parse_and_valid_map/check_map.s"
+	@echo "... src/parse_and_valid_map/check_wall_map.o"
+	@echo "... src/parse_and_valid_map/check_wall_map.i"
+	@echo "... src/parse_and_valid_map/check_wall_map.s"
+	@echo "... src/parse_and_valid_map/copy_from_file_attributes.o"
+	@echo "... src/parse_and_valid_map/copy_from_file_attributes.i"
+	@echo "... src/parse_and_valid_map/copy_from_file_attributes.s"
+	@echo "... src/parse_and_valid_map/copy_from_file_map.o"
+	@echo "... src/parse_and_valid_map/copy_from_file_map.i"
+	@echo "... src/parse_and_valid_map/copy_from_file_map.s"
+	@echo "... src/parse_and_valid_map/parsing_file_to_map.o"
+	@echo "... src/parse_and_valid_map/parsing_file_to_map.i"
+	@echo "... src/parse_and_valid_map/parsing_file_to_map.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"

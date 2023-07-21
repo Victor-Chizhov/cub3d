@@ -20,4 +20,5 @@ int	main(int ac, char **av)
 	check_name_file(av[1]);
 	init_info(&info);
 	parsing_file(av[1], &info);
+	init_window_with_map(&info);
 }

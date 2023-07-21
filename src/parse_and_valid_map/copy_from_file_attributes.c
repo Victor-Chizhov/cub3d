@@ -1,4 +1,4 @@
-#include "../include/cub3d.h"
+#include "../../include/cub3d.h"
 
 char *check_symbols_f_and_c(char *check_file)
 {

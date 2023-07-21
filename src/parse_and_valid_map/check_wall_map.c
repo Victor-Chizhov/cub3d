@@ -1,4 +1,7 @@
-#include "../include/cub3d.h"
+#include "../../include/cub3d.h"
+
+
+// --------- need to check this function -------------
 
 int	is_closed(int i, int j, t_game *info)
 {

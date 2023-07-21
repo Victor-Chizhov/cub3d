@@ -216,22 +216,31 @@
 		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/libft/libft.h">
 			<Option target="rep_for_cub3d"/>
 		</Unit>
-		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/check_closed_map.c">
+		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/init_window_with_map.c">
 			<Option target="rep_for_cub3d"/>
 		</Unit>
-		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/check_map.c">
+		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/move_player.c">
 			<Option target="rep_for_cub3d"/>
 		</Unit>
-		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/copy_from_file_attributes.c">
-			<Option target="rep_for_cub3d"/>
-		</Unit>
-		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/copy_from_file_map.c">
+		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/my_hook_param.c">
 			<Option target="rep_for_cub3d"/>
 		</Unit>
 		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/cub3d.c">
 			<Option target="rep_for_cub3d"/>
 		</Unit>
-		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/parsing_file_to_map.c">
+		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/parse_and_valid_map/check_map.c">
+			<Option target="rep_for_cub3d"/>
+		</Unit>
+		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/parse_and_valid_map/check_wall_map.c">
+			<Option target="rep_for_cub3d"/>
+		</Unit>
+		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/parse_and_valid_map/copy_from_file_attributes.c">
+			<Option target="rep_for_cub3d"/>
+		</Unit>
+		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/parse_and_valid_map/copy_from_file_map.c">
+			<Option target="rep_for_cub3d"/>
+		</Unit>
+		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/parse_and_valid_map/parsing_file_to_map.c">
 			<Option target="rep_for_cub3d"/>
 		</Unit>
 		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/utils.c">
