@@ -37,7 +37,7 @@ void	init_info(t_game *info)
 }
 
 
-void	check_count_players_and_exits(char **check_file, t_game *info)
+void	check_count_players(char **check_file, t_game *info)
 {
 	int	i;
 	int j;
@@ -54,19 +54,34 @@ void	check_count_players_and_exits(char **check_file, t_game *info)
 				info->position_player_x = j;
 				info->position_player_y = i;
 				if (info->players > 1) {
-					printf("In check_count_players_and_exits Too many players\n");
+					printf("In check_count_players Too many players\n");
 					print_error(1);
 				}
 			}
 			else if (check_file[i][j] != '0' && check_file[i][j] != '1' && check_file[i][j] != 32)
 			{
-				printf("In check_count_players_and_exits map don't valid\n");
+				printf("In check_count_players map don't valid\n");
 				print_error(1);
 			}
 			j++;
 		}
 		i++;
 	}
+}
+
+// !! ------------------------- CHECK COLOR -----------------------------
+/*
+ * 1 - check count arguments in file
+ * 2 - check symbols in F and C
+ * 3 - check count symbols in F and C
+ * 4 - check NUM symbols in F and C
+ * 5 - convert int to hex
+ *
+ * */
+
+void check_colors(t_game *info)
+{
+
 }
 
 void	parsing_file(char *av, t_game *info)
@@ -91,7 +106,8 @@ void	parsing_file(char *av, t_game *info)
 	check_file = ft_split(open_file, '\n');
 	check_map_in_end(check_file);
 	check_open_file(check_file, info);
-	check_count_players_and_exits(check_file, info);
+    check_count_players(check_file, info);
+    check_colors(info);
 	info->map = copy_map(check_file);
 	check_every_string_of_map(info);
 	check_wall_map(info);
@@ -102,11 +118,11 @@ void	parsing_file(char *av, t_game *info)
 	free(open_file);
 	free_arr(check_file);
 //
-//	read_arr(info->map);
-//	printf("info->NO = %s\n", info->north);
-//	printf("info->SO = %s\n", info->south);
-//	printf("info->WE = %s\n", info->west);
-//	printf("info->EA = %s\n", info->east);
-//	printf("info->F = %s\n", info->floor);
-//	printf("info->C = %s\n", info->ceiling);
+//    read_arr(info->map);
+//    printf("info->NO = %s\n", info->north);
+//    printf("info->SO = %s\n", info->south);
+//    printf("info->WE = %s\n", info->west);
+//    printf("info->EA = %s\n", info->east);
+//    printf("info->F = %s\n", info->floor);
+//    printf("info->C = %s\n", info->ceiling);
 }

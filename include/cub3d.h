@@ -106,7 +106,7 @@ void	check_every_string_of_map(t_game *info);
 // ============== PARSING FILE TO MAP ===============
 
 void	init_info(t_game *map);
-void	check_count_players_and_exits(char **open_file, t_game *info);
+void	check_count_players(char **check_file, t_game *info);
 void	parsing_file(char *av, t_game *map);
 void	delete_element(char **open_file, int index);
 

@@ -22,15 +22,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7958a996-2935-45bd-a410-97a0dbce6fb1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3d2e4f5343fcb09f7b69.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-07-21T07-39-54-0659.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-rep_for_cub3d-Debug-569667d70326f0e0c47f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rep_for_cub3d.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rep_for_cub3d.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/cub3d.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/cub3d.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/create_scene/init_window_with_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/create_scene/init_window_with_map.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/map.cub" beforeDir="false" afterPath="$PROJECT_DIR$/map/map.cub" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_attributes.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_attributes.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.c" afterDir="false" />
     </list>
@@ -103,7 +96,7 @@
       <workItem from="1689924080123" duration="35000" />
       <workItem from="1689924125554" duration="5194000" />
       <workItem from="1689929515470" duration="961000" />
-      <workItem from="1689934788421" duration="3655000" />
+      <workItem from="1689934788421" duration="5491000" />
     </task>
     <servers />
   </component>
