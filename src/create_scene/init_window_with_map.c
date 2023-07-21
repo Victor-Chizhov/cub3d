@@ -12,6 +12,35 @@
 
 #include "../../include/cub3d.h"
 
+void	my_mlx_pixel_put(t_game *data, int x, int y, int color)
+{
+    char	*dst;
+
+    dst = data->addr + (y * data->line_length + x * (data->bits_per_pixel / 8));
+    *(unsigned int*)dst = color;
+}
+
+/*
+ * 1. инициализация
+		1. сделать проверку на текстуры
+ 		2. сделать проверку на цвет
+ 		3. создать окно
+ 	2. отрисовка
+ 		1. создать mlx hook loop
+ 		2. инициализировать mlx_new_image
+ 		3. инициализировать mlx_get_data_addr
+ 		4. рисовать пол
+ 		5. рисовать стены
+ 		6. райкастинг
+ 		7. хуки
+ 		8. инциализировать mlx_put_image
+ 		9. задестроить
+
+
+
+
+*/
+
 //void	init_sprites(t_game *map)
 //{
 //	map->sprite_player = mlx_xpm_file_to_image(map->mlx, \
@@ -45,32 +74,58 @@
 //		map->sprite_player, 64 * x, 64 * y);
 //}
 //
-//void	render_map(t_game *map)
-//{
-//	int	i;
-//	int	j;
-//
-//	i = 0;
-//	while (map->map[i])
-//	{
-//		j = 0;
-//		while (map->map[i][j])
-//		{
-//			print_sprites(map, map->map[i][j], i, j);
-//			j++;
-//		}
-//		i++;
-//	}
-//}
+
+void draw_floor_and_ceiling(t_game *info)
+{
+    int x;
+    int y;
+
+    y = 0;
+    while (y < info->screen_height / 2)
+    {
+        x = 0;
+        while (x < info->screen_width)
+        {
+            my_mlx_pixel_put(info, x, y, 0x6585A1);
+            x++;
+        }
+        y++;
+    }
+    y = (int)info->screen_height / 2;
+    while (y < info->screen_height)
+    {
+        x = 0;
+        while (x < info->screen_width)
+        {
+            my_mlx_pixel_put(info, x, y, 0x314F4F);
+            x++;
+        }
+        y++;
+    }
+}
+
+int 	render_scene(void *info_raw)
+{
+    t_game *info;
+
+    info = (t_game *)info_raw;
+    info->img = mlx_new_image(info->mlx, (int)info->screen_width, (int)info->screen_height);
+    info->addr = mlx_get_data_addr(info->img, &info->bits_per_pixel, &info->line_length, &info->endian);
+    draw_floor_and_ceiling(info);
+    mlx_put_image_to_window(info->mlx, info->mlx_win, info->img, 0, 0);
+    return 0;
+
+}
 
 void	init_window_with_map(t_game *info)
 {
+    info->screen_width = 640;
+    info->screen_height = 480;
+
 	info->mlx = mlx_init();
-	info->mlx_win = mlx_new_window(mlx, 1920, 1080, "cub3D");
-	init_sprites(map);
-	render_map(map);
-	mlx_hook(map->mlx_win, 2, 1L << 0, my_keypress_hook, map);
-	mlx_hook(map->mlx_win, 17, 1L << 17, exit_game, map);
-	render_map(map);
+	info->mlx_win = mlx_new_window(info->mlx, (int)info->screen_width, (int)info->screen_height, "cub3D");
+
+    mlx_loop_hook(info->mlx, render_scene, info);
+
 	mlx_loop(info->mlx);
 }

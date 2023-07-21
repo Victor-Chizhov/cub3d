@@ -1,7 +1,7 @@
 #ifndef CUB3D_H
 # define CUB3D_H
 
-# include <mlx.h>
+# include "../minilibx/mlx.h"
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdio.h>
@@ -31,8 +31,27 @@ typedef struct s_game {
 	int		empty_space;
 	int		map_exit;
 	int		items;
-	int		position_player_x;
-	int		position_player_y;
+	double		position_player_x;
+	double		position_player_y;
+	double 		dir_x;
+	double 		dir_y;
+	double 		plane_x;
+	double 		plane_y;
+	double 		time;
+	double 		old_time;
+	double 		screen_width;
+	double		screen_height;
+	double 		camera_x;
+	double 		ray_dir_x;
+	double 		ray_dir_y;
+	double 		side_dist_x;
+	double 		side_dist_y;
+	double 		delta_dist_x;
+	double 		delta_dist_y;
+	double 		perp_wall_dist;
+	double 		step_x;
+	double 		step_y;
+
 
 
 	void	*sprite_player;
@@ -49,7 +68,7 @@ typedef struct s_game {
 	char *west;
 	char *east;
 	char *floor;
-	char *ceilling;
+	char *ceiling;
 	int count_arguments_in_file;
 }			t_game;
 
@@ -100,7 +119,7 @@ void	flood_fill(char **tmp, t_game *map);
 // ============== INIT WINDOW WITH MAP ================
 
 void	init_window_with_map(t_game *map);
-void	render_map(t_game *map);
+int 	render_scene(void *info_raw);
 void	print_sprites(t_game *map, char c, int y, int x);
 void	init_sprites(t_game *map);
 

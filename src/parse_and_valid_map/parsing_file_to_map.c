@@ -31,7 +31,7 @@ void	init_info(t_game *info)
 	info->west = NULL;
 	info->east = NULL;
 	info->floor = NULL;
-	info->ceilling = NULL;
+	info->ceiling = NULL;
 	info->count_arguments_in_file = 0;
 
 }
@@ -101,12 +101,12 @@ void	parsing_file(char *av, t_game *info)
 
 	free(open_file);
 	free_arr(check_file);
-
-	read_arr(info->map);
-	printf("info->NO = %s\n", info->north);
-	printf("info->SO = %s\n", info->south);
-	printf("info->WE = %s\n", info->west);
-	printf("info->EA = %s\n", info->east);
-	printf("info->F = %s\n", info->floor);
-	printf("info->C = %s\n", info->ceilling);
+//
+//	read_arr(info->map);
+//	printf("info->NO = %s\n", info->north);
+//	printf("info->SO = %s\n", info->south);
+//	printf("info->WE = %s\n", info->west);
+//	printf("info->EA = %s\n", info->east);
+//	printf("info->F = %s\n", info->floor);
+//	printf("info->C = %s\n", info->ceiling);
 }

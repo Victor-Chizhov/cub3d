@@ -11,6 +11,7 @@ SRCS =	./src/cub3d.c \
 		./src/parse_and_valid_map/copy_from_file_map.c \
 		./src/parse_and_valid_map/check_map.c \
 		./src/parse_and_valid_map/check_wall_map.c \
+		./src/create_scene/init_window_with_map.c
 
 
 HEADER = ./include/cub3d.h

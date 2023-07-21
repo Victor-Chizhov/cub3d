@@ -73,7 +73,7 @@ void	check_open_file(char **check_file, t_game *info)
 		else if (check_file[i][j] == 'F' && check_file[i][j + 1] == ' ')
 			info->floor = copy_from_file_for_f_and_c(check_file[i], info);
 		else if (check_file[i][j] == 'C' && check_file[i][j + 1] == ' ')
-			info->ceilling = copy_from_file_for_f_and_c(check_file[i], info);
+			info->ceiling = copy_from_file_for_f_and_c(check_file[i], info);
 		i++;
 	}
 	if (info->count_arguments_in_file != 6) {

@@ -21,75 +21,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7958a996-2935-45bd-a410-97a0dbce6fb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/create_scene/init_window_with_map.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/create_scene/move_player.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/create_scene/my_hook_param.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d4b144cd4e0b13db4ff5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-07-20T13-10-39-0215.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-rep_for_cub3d-Debug-b21e42168bf0dd51955a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3d2e4f5343fcb09f7b69.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-07-21T07-39-54-0659.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-rep_for_cub3d-Debug-569667d70326f0e0c47f.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/rep_for_cub3d.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rep_for_cub3d.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cub3D" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_next_line/get_next_line.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_next_line/get_next_line_utils.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_next_line/libgnl.a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/include/cub3d.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/cub3d.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_atoi.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_bzero.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_calloc.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_isalnum.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_isalpha.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_isascii.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_isdigit.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_isprint.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_itoa.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_memchr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_memcmp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_memcpy.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_memmove.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_memset.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_putchar_fd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_putendl_fd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_putnbr_fd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_putstr_fd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_split.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strchr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strdup.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_striteri.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strjoin.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strlcat.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strlcpy.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strlen.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strmapi.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strncmp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strnstr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strrchr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strtrim.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_substr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_tolower.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_toupper.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/check_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/check_map.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/check_map.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/check_wall_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/check_wall_map.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/check_wall_map.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/copy_from_file_attributes.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_attributes.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/copy_from_file_attributes.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/copy_from_file_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_map.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/copy_from_file_map.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cub3d.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/cub3d.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cub3d.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parsing_file_to_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parsing_file_to_map.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create_scene/init_window_with_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/create_scene/init_window_with_map.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_attributes.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_attributes.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +74,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/parse_and_valid_map" />
     </key>
   </component>
@@ -157,7 +101,9 @@
       <workItem from="1689770019656" duration="8450000" />
       <workItem from="1689852544661" duration="5821000" />
       <workItem from="1689924080123" duration="35000" />
-      <workItem from="1689924125554" duration="2275000" />
+      <workItem from="1689924125554" duration="5194000" />
+      <workItem from="1689929515470" duration="961000" />
+      <workItem from="1689934788421" duration="3655000" />
     </task>
     <servers />
   </component>

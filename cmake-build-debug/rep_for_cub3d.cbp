@@ -216,6 +216,9 @@
 		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/libft/libft.h">
 			<Option target="rep_for_cub3d"/>
 		</Unit>
+		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/minilibx/mlx.h">
+			<Option target="rep_for_cub3d"/>
+		</Unit>
 		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/init_window_with_map.c">
 			<Option target="rep_for_cub3d"/>
 		</Unit>
