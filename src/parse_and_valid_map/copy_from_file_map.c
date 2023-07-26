@@ -58,7 +58,7 @@ char **copy_after_check_map(char **check_file, int start, int end)
 	int row;
 
 	row = 0;
-	map = malloc(sizeof(char *) * (end - start) + 16);
+	map = malloc(sizeof(char *) * (end - start + 1) + 8);
 	while (start <= end)
 	{
 		map[row] = ft_strdup(check_file[start]);

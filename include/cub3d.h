@@ -44,6 +44,7 @@ typedef struct s_game {
 	double 		camera_x;
 	double 		ray_dir_x;
 	double 		ray_dir_y;
+    int 		hit;
 	double 		side_dist_x;
 	double 		side_dist_y;
 	double 		delta_dist_x;
@@ -51,6 +52,12 @@ typedef struct s_game {
 	double 		perp_wall_dist;
 	double 		step_x;
 	double 		step_y;
+    int 		side;
+    int 		map_x;
+    int 		map_y;
+    int 		line_height;
+    int 		draw_start;
+    int 		draw_end;
 
 
 
@@ -68,7 +75,9 @@ typedef struct s_game {
 	char *west;
 	char *east;
 	char *floor;
+    int floor_color;
 	char *ceiling;
+    int ceiling_color;
 	int count_arguments_in_file;
 }			t_game;
 

@@ -69,18 +69,31 @@ void	check_count_players(char **check_file, t_game *info)
 	}
 }
 
-// !! ------------------------- CHECK COLOR -----------------------------
-/*
- * 1 - check count arguments in file
- * 2 - check symbols in F and C
- * 3 - check count symbols in F and C
- * 4 - check NUM symbols in F and C
- * 5 - convert int to hex
- *
- * */
 
-void check_colors(t_game *info)
+int convert_colors(char *info)
 {
+    char **arr;
+    int arr_int[3];
+    int i;
+
+    i = 0;
+    arr = ft_split(info, ',');
+    if (len_pointer_arr(arr) != 3)
+    {
+        printf("In convert_colors len_pointer_arr != 3\n");
+        print_error(1);
+    }
+    while(i < 3)
+    {
+        arr_int[i] = ft_atoi(arr[i]);
+        if (arr_int[i] > 255 || arr_int[i] < 0)
+        {
+            printf("In convert_colors atoi > 255 or < 0\n");
+            print_error(1);
+        }
+        i++;
+    }
+    return((arr_int[0] << 16) + (arr_int[1] << 8) + arr_int[2]);
 
 }
 
@@ -106,23 +119,27 @@ void	parsing_file(char *av, t_game *info)
 	check_file = ft_split(open_file, '\n');
 	check_map_in_end(check_file);
 	check_open_file(check_file, info);
-    check_count_players(check_file, info);
-    check_colors(info);
+    info->floor_color = convert_colors(info->floor);
+    info->ceiling_color = convert_colors(info->ceiling);
 	info->map = copy_map(check_file);
+	check_count_players(info->map, info);
 	check_every_string_of_map(info);
 	check_wall_map(info);
 //	read_arr(info->map);
 //	check_no_exit(map);
-
-
 	free(open_file);
 	free_arr(check_file);
 //
 //    read_arr(info->map);
+//	printf("\n");
 //    printf("info->NO = %s\n", info->north);
 //    printf("info->SO = %s\n", info->south);
 //    printf("info->WE = %s\n", info->west);
 //    printf("info->EA = %s\n", info->east);
 //    printf("info->F = %s\n", info->floor);
 //    printf("info->C = %s\n", info->ceiling);
+//    printf("info->floor_color = %x\n", info->floor_color);
+//    printf("info->ceiling_color = %x\n", info->ceiling_color);
+//	printf("position_player_x = %f\n", info->position_player_x);
+//	printf("position_player_y = %f\n", info->position_player_y);
 }

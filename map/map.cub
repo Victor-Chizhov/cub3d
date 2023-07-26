@@ -2,8 +2,8 @@
       EA ./textures/brick.xpm
       SO ./textures/brick.xpm
   WE ./textures/brick.xpm
-         F    49, 79, 49
-     C 200, 200, 200
+         F    9, 63, 125
+     C 87, 130, 99,
 
 
         1111111111111111111111111
