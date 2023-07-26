@@ -21,7 +21,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7958a996-2935-45bd-a410-97a0dbce6fb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bag_list" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cub3D" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/get_next_line/get_next_line.o" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/get_next_line/get_next_line_utils.o" afterDir="false" />
@@ -61,9 +60,10 @@
       <change afterPath="$PROJECT_DIR$/libft/ft_tolower.o" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/libft/ft_toupper.o" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/map/lol_map.cub" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/create_scene/init_window_with_map.o" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cub3d.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hook/hook_param.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hook/hook_param.o" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/parse_and_valid_map/check_map.o" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/parse_and_valid_map/check_wall_map.o" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_attributes.o" afterDir="false" />
@@ -71,11 +71,23 @@
       <change afterPath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.o" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/utils.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-a8e963a19cd722769f10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-07-21T08-52-21-0203.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-rep_for_cub3d-Debug-c81a8742e206c762101e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/cub3d.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/cub3d.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/map.cub" beforeDir="false" afterPath="$PROJECT_DIR$/map/map.cub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rep_for_cub3d.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rep_for_cub3d.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/create_scene/init_window_with_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/create_scene/init_window_with_map.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_map.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create_scene/my_hook_param.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,6 +135,11 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="rep_for_cub3d" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="rep_for_cub3d" TARGET_NAME="rep_for_cub3d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="rep_for_cub3d" RUN_TARGET_NAME="rep_for_cub3d">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -144,7 +161,7 @@
       <workItem from="1689929515470" duration="961000" />
       <workItem from="1689934788421" duration="5560000" />
       <workItem from="1690359662273" duration="8407000" />
-      <workItem from="1690370862528" duration="10285000" />
+      <workItem from="1690370862528" duration="14247000" />
     </task>
     <servers />
   </component>

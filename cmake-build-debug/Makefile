@@ -1257,6 +1257,30 @@ src/cub3d.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/cub3d.c.s
 .PHONY : src/cub3d.c.s
 
+src/hook/hook_param.o: src/hook/hook_param.c.o
+.PHONY : src/hook/hook_param.o
+
+# target to build an object file
+src/hook/hook_param.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o
+.PHONY : src/hook/hook_param.c.o
+
+src/hook/hook_param.i: src/hook/hook_param.c.i
+.PHONY : src/hook/hook_param.i
+
+# target to preprocess a source file
+src/hook/hook_param.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.i
+.PHONY : src/hook/hook_param.c.i
+
+src/hook/hook_param.s: src/hook/hook_param.c.s
+.PHONY : src/hook/hook_param.s
+
+# target to generate assembly for a file
+src/hook/hook_param.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.s
+.PHONY : src/hook/hook_param.c.s
+
 src/parse_and_valid_map/check_map.o: src/parse_and_valid_map/check_map.c.o
 .PHONY : src/parse_and_valid_map/check_map.o
 
@@ -1551,6 +1575,9 @@ help:
 	@echo "... src/cub3d.o"
 	@echo "... src/cub3d.i"
 	@echo "... src/cub3d.s"
+	@echo "... src/hook/hook_param.o"
+	@echo "... src/hook/hook_param.i"
+	@echo "... src/hook/hook_param.s"
 	@echo "... src/parse_and_valid_map/check_map.o"
 	@echo "... src/parse_and_valid_map/check_map.i"
 	@echo "... src/parse_and_valid_map/check_map.s"

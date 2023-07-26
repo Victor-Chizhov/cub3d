@@ -80,6 +80,7 @@ int convert_colors(char *info)
     arr = ft_split(info, ',');
     if (len_pointer_arr(arr) != 3)
     {
+		free_arr(arr);
         printf("In convert_colors len_pointer_arr != 3\n");
         print_error(1);
     }
@@ -88,11 +89,13 @@ int convert_colors(char *info)
         arr_int[i] = ft_atoi(arr[i]);
         if (arr_int[i] > 255 || arr_int[i] < 0)
         {
+			free_arr(arr);
             printf("In convert_colors atoi > 255 or < 0\n");
             print_error(1);
         }
         i++;
     }
+	free_arr(arr);
     return((arr_int[0] << 16) + (arr_int[1] << 8) + arr_int[2]);
 
 }

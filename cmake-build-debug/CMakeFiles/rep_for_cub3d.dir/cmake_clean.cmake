@@ -93,6 +93,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.o.d"
   "CMakeFiles/rep_for_cub3d.dir/src/cub3d.c.o"
   "CMakeFiles/rep_for_cub3d.dir/src/cub3d.c.o.d"
+  "CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o"
+  "CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o.d"
   "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_map.c.o"
   "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_map.c.o.d"
   "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_wall_map.c.o"

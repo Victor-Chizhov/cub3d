@@ -55,6 +55,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/move_player.c" "CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.o.d"
   "/Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/my_hook_param.c" "CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.o.d"
   "/Users/vchizhov/Desktop/rep_for_cub3d/src/cub3d.c" "CMakeFiles/rep_for_cub3d.dir/src/cub3d.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/cub3d.c.o.d"
+  "/Users/vchizhov/Desktop/rep_for_cub3d/src/hook/hook_param.c" "CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o.d"
   "/Users/vchizhov/Desktop/rep_for_cub3d/src/parse_and_valid_map/check_map.c" "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_map.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_map.c.o.d"
   "/Users/vchizhov/Desktop/rep_for_cub3d/src/parse_and_valid_map/check_wall_map.c" "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_wall_map.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_wall_map.c.o.d"
   "/Users/vchizhov/Desktop/rep_for_cub3d/src/parse_and_valid_map/copy_from_file_attributes.c" "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/copy_from_file_attributes.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/copy_from_file_attributes.c.o.d"

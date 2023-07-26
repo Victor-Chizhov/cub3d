@@ -104,7 +104,7 @@ void draw_wall(t_game *info)
 
         while(info->draw_start < info->draw_end)
         {
-            my_mlx_pixel_put(info, x, info->draw_start, 0x36454F);
+            my_mlx_pixel_put(info, x, info->draw_start, 0xB6B6B4);
             info->draw_start++;
         }
     }
@@ -148,6 +148,7 @@ int 	render_scene(void *info_raw)
     info->addr = mlx_get_data_addr(info->img, &info->bits_per_pixel, &info->line_length, &info->endian);
     draw_floor_and_ceiling(info);
     draw_wall(info);
+
     mlx_put_image_to_window(info->mlx, info->mlx_win, info->img, 0, 0);
     return 0;
 
@@ -162,7 +163,10 @@ void	init_window_with_map(t_game *info)
 	info->mlx = mlx_init();
 	info->mlx_win = mlx_new_window(info->mlx, (int)info->screen_width, (int)info->screen_height, "cub3D");
 
+
+	mlx_hook(info->mlx_win, 17, 1L << 17, exit_game, info);
     mlx_loop_hook(info->mlx, render_scene, info);
+	mlx_hook(info->mlx_win, 2, 1L << 0, my_keypress_hook, info);
 
 	mlx_loop(info->mlx);
 }
