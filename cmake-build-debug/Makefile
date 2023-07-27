@@ -1161,6 +1161,30 @@ libft/ft_toupper.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/libft/ft_toupper.c.s
 .PHONY : libft/ft_toupper.c.s
 
+src/create_scene/draw_scene.o: src/create_scene/draw_scene.c.o
+.PHONY : src/create_scene/draw_scene.o
+
+# target to build an object file
+src/create_scene/draw_scene.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.o
+.PHONY : src/create_scene/draw_scene.c.o
+
+src/create_scene/draw_scene.i: src/create_scene/draw_scene.c.i
+.PHONY : src/create_scene/draw_scene.i
+
+# target to preprocess a source file
+src/create_scene/draw_scene.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.i
+.PHONY : src/create_scene/draw_scene.c.i
+
+src/create_scene/draw_scene.s: src/create_scene/draw_scene.c.s
+.PHONY : src/create_scene/draw_scene.s
+
+# target to generate assembly for a file
+src/create_scene/draw_scene.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.s
+.PHONY : src/create_scene/draw_scene.c.s
+
 src/create_scene/init_window_with_map.o: src/create_scene/init_window_with_map.c.o
 .PHONY : src/create_scene/init_window_with_map.o
 
@@ -1208,30 +1232,6 @@ src/create_scene/move_player.s: src/create_scene/move_player.c.s
 src/create_scene/move_player.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.s
 .PHONY : src/create_scene/move_player.c.s
-
-src/create_scene/my_hook_param.o: src/create_scene/my_hook_param.c.o
-.PHONY : src/create_scene/my_hook_param.o
-
-# target to build an object file
-src/create_scene/my_hook_param.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.o
-.PHONY : src/create_scene/my_hook_param.c.o
-
-src/create_scene/my_hook_param.i: src/create_scene/my_hook_param.c.i
-.PHONY : src/create_scene/my_hook_param.i
-
-# target to preprocess a source file
-src/create_scene/my_hook_param.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.i
-.PHONY : src/create_scene/my_hook_param.c.i
-
-src/create_scene/my_hook_param.s: src/create_scene/my_hook_param.c.s
-.PHONY : src/create_scene/my_hook_param.s
-
-# target to generate assembly for a file
-src/create_scene/my_hook_param.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.s
-.PHONY : src/create_scene/my_hook_param.c.s
 
 src/cub3d.o: src/cub3d.c.o
 .PHONY : src/cub3d.o
@@ -1401,6 +1401,30 @@ src/parse_and_valid_map/parsing_file_to_map.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/parsing_file_to_map.c.s
 .PHONY : src/parse_and_valid_map/parsing_file_to_map.c.s
 
+src/raycasting/ray_casting.o: src/raycasting/ray_casting.c.o
+.PHONY : src/raycasting/ray_casting.o
+
+# target to build an object file
+src/raycasting/ray_casting.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.o
+.PHONY : src/raycasting/ray_casting.c.o
+
+src/raycasting/ray_casting.i: src/raycasting/ray_casting.c.i
+.PHONY : src/raycasting/ray_casting.i
+
+# target to preprocess a source file
+src/raycasting/ray_casting.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.i
+.PHONY : src/raycasting/ray_casting.c.i
+
+src/raycasting/ray_casting.s: src/raycasting/ray_casting.c.s
+.PHONY : src/raycasting/ray_casting.s
+
+# target to generate assembly for a file
+src/raycasting/ray_casting.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.s
+.PHONY : src/raycasting/ray_casting.c.s
+
 src/utils.o: src/utils.c.o
 .PHONY : src/utils.o
 
@@ -1563,15 +1587,15 @@ help:
 	@echo "... libft/ft_toupper.o"
 	@echo "... libft/ft_toupper.i"
 	@echo "... libft/ft_toupper.s"
+	@echo "... src/create_scene/draw_scene.o"
+	@echo "... src/create_scene/draw_scene.i"
+	@echo "... src/create_scene/draw_scene.s"
 	@echo "... src/create_scene/init_window_with_map.o"
 	@echo "... src/create_scene/init_window_with_map.i"
 	@echo "... src/create_scene/init_window_with_map.s"
 	@echo "... src/create_scene/move_player.o"
 	@echo "... src/create_scene/move_player.i"
 	@echo "... src/create_scene/move_player.s"
-	@echo "... src/create_scene/my_hook_param.o"
-	@echo "... src/create_scene/my_hook_param.i"
-	@echo "... src/create_scene/my_hook_param.s"
 	@echo "... src/cub3d.o"
 	@echo "... src/cub3d.i"
 	@echo "... src/cub3d.s"
@@ -1593,6 +1617,9 @@ help:
 	@echo "... src/parse_and_valid_map/parsing_file_to_map.o"
 	@echo "... src/parse_and_valid_map/parsing_file_to_map.i"
 	@echo "... src/parse_and_valid_map/parsing_file_to_map.s"
+	@echo "... src/raycasting/ray_casting.o"
+	@echo "... src/raycasting/ray_casting.i"
+	@echo "... src/raycasting/ray_casting.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"

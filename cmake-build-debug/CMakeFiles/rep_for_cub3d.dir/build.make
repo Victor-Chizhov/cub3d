@@ -769,24 +769,10 @@ CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_wall_map.c.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_wall_map.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vchizhov/Desktop/rep_for_cub3d/src/parse_and_valid_map/check_wall_map.c -o CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_wall_map.c.s
 
-CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.o: CMakeFiles/rep_for_cub3d.dir/flags.make
-CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.o: /Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/my_hook_param.c
-CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.o: CMakeFiles/rep_for_cub3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vchizhov/Desktop/rep_for_cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.o -MF CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.o.d -o CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.o -c /Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/my_hook_param.c
-
-CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/my_hook_param.c > CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.i
-
-CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/my_hook_param.c -o CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.s
-
 CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.o: CMakeFiles/rep_for_cub3d.dir/flags.make
 CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.o: /Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/move_player.c
 CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.o: CMakeFiles/rep_for_cub3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vchizhov/Desktop/rep_for_cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vchizhov/Desktop/rep_for_cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.o -MF CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.o.d -o CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.o -c /Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/move_player.c
 
 CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.i: cmake_force
@@ -800,7 +786,7 @@ CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.s: cmake_force
 CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.o: CMakeFiles/rep_for_cub3d.dir/flags.make
 CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.o: /Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/init_window_with_map.c
 CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.o: CMakeFiles/rep_for_cub3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vchizhov/Desktop/rep_for_cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vchizhov/Desktop/rep_for_cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.o -MF CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.o.d -o CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.o -c /Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/init_window_with_map.c
 
 CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.i: cmake_force
@@ -814,7 +800,7 @@ CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.s: cmake_fo
 CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o: CMakeFiles/rep_for_cub3d.dir/flags.make
 CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o: /Users/vchizhov/Desktop/rep_for_cub3d/src/hook/hook_param.c
 CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o: CMakeFiles/rep_for_cub3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vchizhov/Desktop/rep_for_cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vchizhov/Desktop/rep_for_cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o -MF CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o.d -o CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o -c /Users/vchizhov/Desktop/rep_for_cub3d/src/hook/hook_param.c
 
 CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.i: cmake_force
@@ -824,6 +810,34 @@ CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.i: cmake_force
 CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vchizhov/Desktop/rep_for_cub3d/src/hook/hook_param.c -o CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.s
+
+CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.o: CMakeFiles/rep_for_cub3d.dir/flags.make
+CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.o: /Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/draw_scene.c
+CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.o: CMakeFiles/rep_for_cub3d.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vchizhov/Desktop/rep_for_cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.o -MF CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.o.d -o CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.o -c /Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/draw_scene.c
+
+CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/draw_scene.c > CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.i
+
+CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/draw_scene.c -o CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.s
+
+CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.o: CMakeFiles/rep_for_cub3d.dir/flags.make
+CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.o: /Users/vchizhov/Desktop/rep_for_cub3d/src/raycasting/ray_casting.c
+CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.o: CMakeFiles/rep_for_cub3d.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vchizhov/Desktop/rep_for_cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.o -MF CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.o.d -o CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.o -c /Users/vchizhov/Desktop/rep_for_cub3d/src/raycasting/ray_casting.c
+
+CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vchizhov/Desktop/rep_for_cub3d/src/raycasting/ray_casting.c > CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.i
+
+CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vchizhov/Desktop/rep_for_cub3d/src/raycasting/ray_casting.c -o CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.s
 
 # Object files for target rep_for_cub3d
 rep_for_cub3d_OBJECTS = \
@@ -877,10 +891,11 @@ rep_for_cub3d_OBJECTS = \
 "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/copy_from_file_map.c.o" \
 "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_map.c.o" \
 "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_wall_map.c.o" \
-"CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.o" \
 "CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.o" \
 "CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.o" \
-"CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o"
+"CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o" \
+"CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.o" \
+"CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.o"
 
 # External object files for target rep_for_cub3d
 rep_for_cub3d_EXTERNAL_OBJECTS =
@@ -935,13 +950,14 @@ rep_for_cub3d: CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/copy_from_fi
 rep_for_cub3d: CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/copy_from_file_map.c.o
 rep_for_cub3d: CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_map.c.o
 rep_for_cub3d: CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_wall_map.c.o
-rep_for_cub3d: CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.o
 rep_for_cub3d: CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.o
 rep_for_cub3d: CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.o
 rep_for_cub3d: CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o
+rep_for_cub3d: CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.o
+rep_for_cub3d: CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.o
 rep_for_cub3d: CMakeFiles/rep_for_cub3d.dir/build.make
 rep_for_cub3d: CMakeFiles/rep_for_cub3d.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vchizhov/Desktop/rep_for_cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Linking C executable rep_for_cub3d"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vchizhov/Desktop/rep_for_cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking C executable rep_for_cub3d"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rep_for_cub3d.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

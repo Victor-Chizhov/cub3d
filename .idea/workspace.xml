@@ -21,61 +21,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7958a996-2935-45bd-a410-97a0dbce6fb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cub3D" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_next_line/get_next_line.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_next_line/get_next_line_utils.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_next_line/libgnl.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_atoi.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_bzero.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_calloc.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_isalnum.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_isalpha.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_isascii.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_isdigit.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_isprint.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_itoa.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_memchr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_memcmp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_memcpy.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_memmove.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_memset.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_putchar_fd.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_putendl_fd.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_putnbr_fd.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_putstr_fd.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_split.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strchr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strdup.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_striteri.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strjoin.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strlcat.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strlcpy.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strlen.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strmapi.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strncmp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strnstr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strrchr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strtrim.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_substr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_tolower.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_toupper.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/create_scene/init_window_with_map.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cub3d.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hook/hook_param.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hook/hook_param.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parse_and_valid_map/check_map.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parse_and_valid_map/check_wall_map.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_attributes.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_map.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/Frame 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/Frame 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/Frame 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/Frame 9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/wall1.xpm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/wall2.xpm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/wall3.xpm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/wall4.xpm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/create_scene/draw_scene.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/create_scene/draw_scene.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/raycasting/ray_casting.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/raycasting/ray_casting.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-a8e963a19cd722769f10.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-07-21T08-52-21-0203.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-rep_for_cub3d-Debug-c81a8742e206c762101e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bag_list" beforeDir="false" afterPath="$PROJECT_DIR$/bag_list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-e30c517ac3ab9172149e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-07-26T14-48-46-0018.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-rep_for_cub3d-Debug-dabb8089d725a62f7036.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/DependInfo.cmake" afterDir="false" />
@@ -86,9 +50,18 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/rep_for_cub3d.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rep_for_cub3d.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cub3D" beforeDir="false" afterPath="$PROJECT_DIR$/cub3D" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_next_line/libgnl.a" beforeDir="false" afterPath="$PROJECT_DIR$/get_next_line/libgnl.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/cub3d.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/cub3d.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/create_scene/init_window_with_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/create_scene/init_window_with_map.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/create_scene/my_hook_param.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create_scene/init_window_with_map.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/create_scene/init_window_with_map.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cub3d.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/cub3d.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hook/hook_param.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/hook/hook_param.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hook/hook_param.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/hook/hook_param.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_attributes.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_attributes.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.o" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,9 +108,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="rep_for_cub3d" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="rep_for_cub3d" TARGET_NAME="rep_for_cub3d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="rep_for_cub3d" RUN_TARGET_NAME="rep_for_cub3d">
@@ -162,6 +135,7 @@
       <workItem from="1689934788421" duration="5560000" />
       <workItem from="1690359662273" duration="8407000" />
       <workItem from="1690370862528" duration="14247000" />
+      <workItem from="1690442038049" duration="17357000" />
     </task>
     <servers />
   </component>

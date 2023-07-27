@@ -101,8 +101,9 @@
 				52,
 				53,
 				54,
-				55,
-				57
+				56,
+				57,
+				58
 			]
 		}
 	],
@@ -187,8 +188,9 @@
 				52,
 				53,
 				54,
-				55,
-				57
+				56,
+				57,
+				58
 			]
 		},
 		{
@@ -197,7 +199,7 @@
 			[
 				46,
 				48,
-				56
+				55
 			]
 		},
 		{
@@ -528,12 +530,6 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/create_scene/my_hook_param.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
 			"path" : "src/create_scene/move_player.c",
 			"sourceGroupIndex" : 0
 		},
@@ -552,6 +548,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/hook/hook_param.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/create_scene/draw_scene.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/raycasting/ray_casting.c",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -58,19 +58,25 @@ typedef struct s_game {
     int 		line_height;
     int 		draw_start;
     int 		draw_end;
+    double wall_x;
+    double texture_x;
+    double texture_y;
+    double step;
+    double tex_pos;
+    int color;
+    int num_sprite;
 
 
 
-	void	*sprite_player;
-	void	*sprite_wall;
-	void	*sprite_place;
-	void	*sprite_exit;
-	void	*sprite_items;
+	void	*sprite_north;
+	void	*sprite_south;
+	void	*sprite_west;
+	void	*sprite_east;
 	int		height_sprite;
 	int		width_sprite;
-	int		step_count;
+    int		*texture[4];
 
-	char *north;
+    char *north;
 	char *south;
 	char *west;
 	char *east;
@@ -131,6 +137,15 @@ void	init_window_with_map(t_game *map);
 int 	render_scene(void *info_raw);
 void	print_sprites(t_game *map, char c, int y, int x);
 void	init_sprites(t_game *map);
+
+// ============== DRAW SCENE ===========================
+
+void draw_floor_and_ceiling(t_game *info);
+void	my_mlx_pixel_put(t_game *data, int x, int y, int color);
+void ray_casting(t_game *info);
+
+void draw_wall_with_texture(t_game *info, int x);
+
 
 // =============== EXIT GAME ==========================
 

@@ -25,7 +25,6 @@ void	init_info(t_game *info)
 	info->items = 0;
 	info->position_player_x = 0;
 	info->position_player_y = 0;
-	info->step_count = 0;
 	info->north = NULL;
 	info->south = NULL;
 	info->west = NULL;
@@ -34,6 +33,38 @@ void	init_info(t_game *info)
 	info->ceiling = NULL;
 	info->count_arguments_in_file = 0;
 
+}
+
+void save_direction_player(t_game *info)
+{
+    if (info->map[(int)info->position_player_y][(int)info->position_player_x] == 'N')
+    {
+        info->dir_x = -1;
+        info->dir_y = 0;
+        info->plane_x = 0;
+        info->plane_y = 0.66;
+    }
+    else if (info->map[(int)info->position_player_y][(int)info->position_player_x] == 'S')
+    {
+        info->dir_x = 1;
+        info->dir_y = 0;
+        info->plane_x = 0;
+        info->plane_y = -0.66;
+    }
+    else if (info->map[(int)info->position_player_y][(int)info->position_player_x] == 'W')
+    {
+        info->dir_x = 0;
+        info->dir_y = -1;
+        info->plane_x = -0.66;
+        info->plane_y = 0;
+    }
+    else if (info->map[(int)info->position_player_y][(int)info->position_player_x] == 'E')
+    {
+        info->dir_x = 0;
+        info->dir_y = 1;
+        info->plane_x = 0.66;
+        info->plane_y = 0;
+    }
 }
 
 
@@ -53,6 +84,7 @@ void	check_count_players(char **check_file, t_game *info)
 				info->players++;
 				info->position_player_x = j;
 				info->position_player_y = i;
+                save_direction_player(info);
 				if (info->players > 1) {
 					printf("In check_count_players Too many players\n");
 					print_error(1);

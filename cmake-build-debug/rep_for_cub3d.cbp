@@ -219,13 +219,13 @@
 		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/minilibx/mlx.h">
 			<Option target="rep_for_cub3d"/>
 		</Unit>
+		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/draw_scene.c">
+			<Option target="rep_for_cub3d"/>
+		</Unit>
 		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/init_window_with_map.c">
 			<Option target="rep_for_cub3d"/>
 		</Unit>
 		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/move_player.c">
-			<Option target="rep_for_cub3d"/>
-		</Unit>
-		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/my_hook_param.c">
 			<Option target="rep_for_cub3d"/>
 		</Unit>
 		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/cub3d.c">
@@ -247,6 +247,9 @@
 			<Option target="rep_for_cub3d"/>
 		</Unit>
 		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/parse_and_valid_map/parsing_file_to_map.c">
+			<Option target="rep_for_cub3d"/>
+		</Unit>
+		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/raycasting/ray_casting.c">
 			<Option target="rep_for_cub3d"/>
 		</Unit>
 		<Unit filename="/Users/vchizhov/Desktop/rep_for_cub3d/src/utils.c">

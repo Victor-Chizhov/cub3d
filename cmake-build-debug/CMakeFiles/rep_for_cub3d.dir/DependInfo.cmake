@@ -51,9 +51,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/vchizhov/Desktop/rep_for_cub3d/libft/ft_substr.c" "CMakeFiles/rep_for_cub3d.dir/libft/ft_substr.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/libft/ft_substr.c.o.d"
   "/Users/vchizhov/Desktop/rep_for_cub3d/libft/ft_tolower.c" "CMakeFiles/rep_for_cub3d.dir/libft/ft_tolower.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/libft/ft_tolower.c.o.d"
   "/Users/vchizhov/Desktop/rep_for_cub3d/libft/ft_toupper.c" "CMakeFiles/rep_for_cub3d.dir/libft/ft_toupper.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/libft/ft_toupper.c.o.d"
+  "/Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/draw_scene.c" "CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/create_scene/draw_scene.c.o.d"
   "/Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/init_window_with_map.c" "CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.o.d"
   "/Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/move_player.c" "CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.o.d"
-  "/Users/vchizhov/Desktop/rep_for_cub3d/src/create_scene/my_hook_param.c" "CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/create_scene/my_hook_param.c.o.d"
   "/Users/vchizhov/Desktop/rep_for_cub3d/src/cub3d.c" "CMakeFiles/rep_for_cub3d.dir/src/cub3d.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/cub3d.c.o.d"
   "/Users/vchizhov/Desktop/rep_for_cub3d/src/hook/hook_param.c" "CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.o.d"
   "/Users/vchizhov/Desktop/rep_for_cub3d/src/parse_and_valid_map/check_map.c" "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_map.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/check_map.c.o.d"
@@ -61,6 +61,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/vchizhov/Desktop/rep_for_cub3d/src/parse_and_valid_map/copy_from_file_attributes.c" "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/copy_from_file_attributes.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/copy_from_file_attributes.c.o.d"
   "/Users/vchizhov/Desktop/rep_for_cub3d/src/parse_and_valid_map/copy_from_file_map.c" "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/copy_from_file_map.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/copy_from_file_map.c.o.d"
   "/Users/vchizhov/Desktop/rep_for_cub3d/src/parse_and_valid_map/parsing_file_to_map.c" "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/parsing_file_to_map.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/parsing_file_to_map.c.o.d"
+  "/Users/vchizhov/Desktop/rep_for_cub3d/src/raycasting/ray_casting.c" "CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.o.d"
   "/Users/vchizhov/Desktop/rep_for_cub3d/src/utils.c" "CMakeFiles/rep_for_cub3d.dir/src/utils.c.o" "gcc" "CMakeFiles/rep_for_cub3d.dir/src/utils.c.o.d"
   )
 
