@@ -39,31 +39,31 @@ void save_direction_player(t_game *info)
 {
     if (info->map[(int)info->position_player_y][(int)info->position_player_x] == 'N')
     {
-        info->dir_x = -1;
-        info->dir_y = 0;
-        info->plane_x = 0;
-        info->plane_y = 0.66;
+		info->dir_x = 0;
+		info->dir_y = -1;
+		info->plane_x = 0.66;
+		info->plane_y = 0;
     }
     else if (info->map[(int)info->position_player_y][(int)info->position_player_x] == 'S')
     {
-        info->dir_x = 1;
-        info->dir_y = 0;
-        info->plane_x = 0;
-        info->plane_y = -0.66;
+		info->dir_x = 0;
+		info->dir_y = 1;
+		info->plane_x = -0.66;
+		info->plane_y = 0;
     }
     else if (info->map[(int)info->position_player_y][(int)info->position_player_x] == 'W')
     {
-        info->dir_x = 0;
-        info->dir_y = -1;
-        info->plane_x = -0.66;
-        info->plane_y = 0;
+		info->dir_x = -1;
+		info->dir_y = 0;
+		info->plane_x = 0;
+		info->plane_y = -0.66;
     }
     else if (info->map[(int)info->position_player_y][(int)info->position_player_x] == 'E')
     {
-        info->dir_x = 0;
-        info->dir_y = 1;
-        info->plane_x = 0.66;
-        info->plane_y = 0;
+		info->dir_x = 1;
+		info->dir_y = 0;
+		info->plane_x = 0;
+		info->plane_y = 0.66;
     }
 }
 

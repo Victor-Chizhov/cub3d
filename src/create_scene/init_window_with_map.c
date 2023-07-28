@@ -50,6 +50,11 @@ void	init_window_with_map(t_game *info)
     info->width_sprite = 64;
     info->height_sprite = 64;
 
+	info->move_speed = 0.05;
+	info->turn_speed = 0.01;
+	info->player_angle = 0.0;
+
+
 	info->mlx = mlx_init();
 	info->mlx_win = mlx_new_window(info->mlx, (int)info->screen_width, (int)info->screen_height, "cub3D");
     init_sprites(info);

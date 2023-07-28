@@ -58,6 +58,9 @@ typedef struct s_game {
     int 		line_height;
     int 		draw_start;
     int 		draw_end;
+	double 		move_speed;
+	double 		turn_speed;
+	double		player_angle;
     double wall_x;
     double texture_x;
     double texture_y;
