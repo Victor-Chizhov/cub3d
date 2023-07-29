@@ -10,7 +10,7 @@ void	deleted_sprites(t_game *info)
 
 int	exit_game(t_game *info)
 {
-	deleted_sprites(info);
+//	deleted_sprites(info);
 	mlx_destroy_window(info->mlx, info->mlx_win);
 //	system("leaks cub3D");
 	exit(0);

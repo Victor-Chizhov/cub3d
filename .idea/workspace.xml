@@ -27,7 +27,11 @@
       <change beforePath="$PROJECT_DIR$/get_next_line/libgnl.a" beforeDir="false" afterPath="$PROJECT_DIR$/get_next_line/libgnl.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/cub3d.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/cub3d.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/map.cub" beforeDir="false" afterPath="$PROJECT_DIR$/map/map.cub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/lol_map.cub" beforeDir="false" afterPath="$PROJECT_DIR$/map/lol_map.cub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/wall1.xpm" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/wall1.xpm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/wall2.xpm" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/wall2.xpm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/wall3.xpm" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/wall3.xpm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/wall4.xpm" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/wall4.xpm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/create_scene/draw_scene.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/create_scene/draw_scene.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/create_scene/draw_scene.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/create_scene/draw_scene.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/create_scene/init_window_with_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/create_scene/init_window_with_map.c" afterDir="false" />
@@ -40,7 +44,6 @@
       <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_attributes.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_attributes.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_map.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_map.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/raycasting/ray_casting.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/raycasting/ray_casting.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/raycasting/ray_casting.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/raycasting/ray_casting.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.o" afterDir="false" />
     </list>
@@ -114,7 +117,7 @@
       <workItem from="1690442038049" duration="17357000" />
       <workItem from="1690528834373" duration="27000" />
       <workItem from="1690528871547" duration="6060000" />
-      <workItem from="1690620622317" duration="6524000" />
+      <workItem from="1690620622317" duration="13645000" />
     </task>
     <servers />
   </component>

@@ -11,6 +11,15 @@
 # include <math.h>
 
 
+typedef struct s_img {
+    void	*img_ptr;
+    char	*addr;
+    int		bits_per_pixel;
+    int		line_length;
+    int		endian;
+    int		width;
+    int		height;
+}				t_img;
 
 typedef struct s_game {
 	void	*mlx;
@@ -77,7 +86,6 @@ typedef struct s_game {
 	void	*sprite_east;
 	int		height_sprite;
 	int		width_sprite;
-    int		*texture[4];
 
     char *north;
 	char *south;
@@ -88,17 +96,9 @@ typedef struct s_game {
 	char *ceiling;
     int ceiling_color;
 	int count_arguments_in_file;
+    t_img texture[4];
 }   t_game;
 
-typedef struct s_img {
-    void	*ptr_img;
-    char	*addr;
-    int		bits_per_pixel;
-    int		line_len;
-    int		endian;
-    int		width;
-    int		height;
-}				t_img;
 
 
 void	print_error(int a);
