@@ -21,7 +21,7 @@ HEADER = ./include/cub3d.h
 
 OBJS = $(SRCS:.c=.o)
 
-CFLAGS = -Werror -Wextra -Wall #-fsanitize=address -g
+CFLAGS = -Werror -Wextra -Wall -fsanitize=address -g
 FLAGS_FOR_MLX = -lmlx -framework OpenGL -framework AppKit
 
 all: $(NAME) $(LIBFT) $(LIBGNL)

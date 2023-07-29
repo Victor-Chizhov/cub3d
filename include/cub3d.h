@@ -88,7 +88,17 @@ typedef struct s_game {
 	char *ceiling;
     int ceiling_color;
 	int count_arguments_in_file;
-}			t_game;
+}   t_game;
+
+typedef struct s_img {
+    void	*ptr_img;
+    char	*addr;
+    int		bits_per_pixel;
+    int		line_len;
+    int		endian;
+    int		width;
+    int		height;
+}				t_img;
 
 
 void	print_error(int a);

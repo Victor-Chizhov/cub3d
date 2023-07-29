@@ -22,6 +22,14 @@ void	my_mlx_pixel_put(t_game *data, int x, int y, int color)
 
 void init_sprites(t_game *info)
 {
+    if (mlx_xpm_file_to_image(info->mlx, info->north, &info->width_sprite, &info->height_sprite) == NULL)
+        printf("Error with sprite\n");
+    if (mlx_xpm_file_to_image(info->mlx, info->south, &info->width_sprite, &info->height_sprite) == NULL)
+        printf("Error with sprite\n");
+    if (mlx_xpm_file_to_image(info->mlx, info->west, &info->width_sprite, &info->height_sprite) == NULL)
+        printf("Error with sprite\n");
+    if (mlx_xpm_file_to_image(info->mlx, info->east, &info->width_sprite, &info->height_sprite) == NULL)
+        printf("Error with sprite\n");
     info->sprite_north = mlx_xpm_file_to_image(info->mlx, info->north, &info->width_sprite, &info->height_sprite);
     info->sprite_south = mlx_xpm_file_to_image(info->mlx, info->south, &info->width_sprite, &info->height_sprite);
     info->sprite_west = mlx_xpm_file_to_image(info->mlx, info->west, &info->width_sprite, &info->height_sprite);
@@ -51,7 +59,7 @@ void	init_window_with_map(t_game *info)
     info->height_sprite = 64;
 
 	info->move_speed = 0.05;
-	info->turn_speed = 0.01;
+	info->turn_speed = 0.03;
 	info->player_angle = 0.0;
 
 

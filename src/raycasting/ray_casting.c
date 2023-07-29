@@ -72,7 +72,7 @@ void ray_casting3(t_game *info)
         }
         if (info->map[info->map_y][info->map_x] == '1') {
             info->hit = 1;
-//            create_texture(info);
+            create_texture(info);
         }
     }
 }
@@ -111,8 +111,8 @@ void ray_casting(t_game *info)
         ray_casting4(info);
         while(info->draw_start < info->draw_end)
         {
-            my_mlx_pixel_put(info, x, info->draw_start, 0xB6B6B4);
-//            draw_wall_with_texture(info, x);
+//            my_mlx_pixel_put(info, x, info->draw_start, 0xB6B6B4);
+            draw_wall_with_texture(info, x);
             info->draw_start++;
         }
     }
