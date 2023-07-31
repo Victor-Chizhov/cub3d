@@ -10,9 +10,19 @@
 # include "string.h"
 # include <math.h>
 
+# define A				0
+# define S				1
+# define D				2
+# define W				13
+# define RIGHT			124
+# define LEFT			123
+# define ESC			53
+# define WINDOW_W     640
+# define WINDOW_H     480
+
 
 typedef struct s_img {
-    void	*img_ptr;
+    void	*img;
     char	*addr;
     int		bits_per_pixel;
     int		line_length;
@@ -24,7 +34,6 @@ typedef struct s_img {
 typedef struct s_game {
 	void	*mlx;
 	void	*mlx_win;
-	void	*img;
 	char	*addr;
 	int		bits_per_pixel;
 	int		line_length;
@@ -48,8 +57,8 @@ typedef struct s_game {
 	double 		plane_y;
 	double 		time;
 	double 		old_time;
-	double 		screen_width;
-	double		screen_height;
+	int 		screen_width;
+	int 		screen_height;
 	double 		camera_x;
 	double 		ray_dir_x;
 	double 		ray_dir_y;
@@ -59,8 +68,8 @@ typedef struct s_game {
 	double 		delta_dist_x;
 	double 		delta_dist_y;
 	double 		perp_wall_dist;
-	double 		step_x;
-	double 		step_y;
+	int 		step_x;
+	int 		step_y;
     int 		side;
     int 		map_x;
     int 		map_y;
@@ -96,7 +105,8 @@ typedef struct s_game {
 	char *ceiling;
     int ceiling_color;
 	int count_arguments_in_file;
-    t_img texture[4];
+    t_img img;
+    t_img img_sprites[4];
 }   t_game;
 
 
@@ -147,7 +157,7 @@ void	flood_fill(char **tmp, t_game *map);
 // ============== INIT WINDOW WITH MAP ================
 
 void	init_window_with_map(t_game *map);
-int 	render_scene(void *info_raw);
+void 	render_scene(t_game *info);
 void	print_sprites(t_game *map, char c, int y, int x);
 void	init_sprites(t_game *map);
 
@@ -157,7 +167,8 @@ void draw_floor_and_ceiling(t_game *info);
 void	my_mlx_pixel_put(t_game *data, int x, int y, int color);
 void ray_casting(t_game *info);
 
-void draw_wall_with_texture(t_game *info, int x);
+int draw_wall_with_texture(t_game *info, int x, char *dst, char *dst2, int texture_x);
+int create_texture(t_game *info);
 
 
 // =============== EXIT GAME ==========================

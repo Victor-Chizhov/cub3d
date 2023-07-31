@@ -2,84 +2,61 @@
 
 void draw_floor_and_ceiling(t_game *info)
 {
-    int x;
-    int y;
+    unsigned int *dst;
+    unsigned int i;
 
-    y = 0;
-    while (y < info->screen_height / 2)
-    {
-        x = 0;
-        while (x < info->screen_width)
-        {
-            my_mlx_pixel_put(info, x, y, info->floor_color);
-            x++;
-        }
-        y++;
-    }
-    y = (int)info->screen_height / 2;
-    while (y < info->screen_height)
-    {
-        x = 0;
-        while (x < info->screen_width)
-        {
-            my_mlx_pixel_put(info, x, y, info->ceiling_color);
-            x++;
-        }
-        y++;
-    }
+    dst = (unsigned int *)info->img.addr;
+    i = WINDOW_W * WINDOW_H / 2 + 1;
+    while(--i > 0)
+        *dst++ = info->ceiling_color;
+    i = WINDOW_W * WINDOW_H / 2 + 1;
+    while(--i > 0)
+        *dst++ = info->floor_color;
 }
 
-int get_color_from_texture(t_img *texture, double texture_x, double texture_y)
+int	ft_texx(t_game *address, int n)
 {
-    int tex_x = (int)(texture_x * texture->width);
-    int tex_y = (int)(texture_y * texture->height);
+    int		texx;
+    double	wallx;
 
-    if (tex_x < 0)
-        tex_x = 0;
-    if (tex_y < 0)
-        tex_y = 0;
-    if (tex_x >= texture->width)
-        tex_x = texture->width - 1;
-    if (tex_y >= texture->height)
-        tex_y = texture->height - 1;
-
-    int pixel_index = tex_y * texture->line_length + tex_x * (texture->bits_per_pixel / 8);
-    unsigned char *pixels = (unsigned char *)texture->addr;
-    unsigned char red = pixels[pixel_index];
-    unsigned char green = pixels[pixel_index + 1];
-    unsigned char blue = pixels[pixel_index + 2];
-    unsigned char alpha = pixels[pixel_index + 3];
-
-    int color = (alpha << 24) | (red << 16) | (green << 8) | blue;
-    return color;
-}
-
-void draw_wall_with_texture(t_game *info, int x)
-{
-    int y;
-
-//    int tex_num = info->map[info->map_x][info->map_y] - 1;
-    if(info->side == 0)
-        info->wall_x = info->position_player_y + info->perp_wall_dist * info->ray_dir_y;
+    wallx = 0.0;
+    if (address->side == 0)
+        wallx = address->position_player_y + address->perp_wall_dist \
+		* address->ray_dir_y;
     else
-        info->wall_x = info->position_player_x + info->perp_wall_dist * info->ray_dir_x;
-    info->wall_x -= floor(info->wall_x);
-    info->texture_x = (int)(info->wall_x * (double)info->width_sprite);
+        wallx = address->position_player_x + address->perp_wall_dist \
+		* address->ray_dir_x;
+    wallx -= floor(wallx);
+    texx = (int)(wallx * (double)address->img_sprites[n].width);
+    if (address->side == 0 && address->ray_dir_x > 0)
+        texx = address->img_sprites[n].width - texx - 1;
+    if (address->side == 1 && address->ray_dir_y < 0)
+        texx = address->img_sprites[n].width - texx - 1;
+    return (texx);
+}
 
-    if(info->side == 0 && info->ray_dir_x > 0)
-        info->texture_x = info->width_sprite - info->texture_x - 1;
-    if(info->side == 1 && info->ray_dir_y < 0)
-        info->texture_x = info->width_sprite - info->texture_x - 1;
+int draw_wall_with_texture(t_game *address, int x, char *dest, char *dest_2, int texx)
+{
+    double	step;
+    double	texpos;
+    int		texy;
+    int		i;
+    int		n;
 
-    info->step = 1.0 * info->height_sprite / info->line_height;
-    info->tex_pos = (info->draw_start - info->screen_height / 2 + (double)info->line_height / 2) * info->step;
-    y = info->draw_start;
-    while (y < info->draw_end)
+    n = create_texture(address);
+    i = address->draw_start;
+    texx = (int)ft_texx(address, n);
+    step = 1.0 * address->img_sprites[n].width / address->line_height;
+    texpos = (address->draw_start - WINDOW_H / 2 + \
+	address->line_height / 2) * step;
+    while (i < address->draw_end)
     {
-        info->texture_y = (int)info->tex_pos & (info->height_sprite - 1);
-        info->tex_pos += info->step;
-        info->color = get_color_from_texture(&info->texture[info->num_sprite], info->texture_x / (double)info->width_sprite, info->texture_y / (double)info->height_sprite);
-        my_mlx_pixel_put(info, x, y, info->color);
-        y++;
+        texy = (int)texpos & address->img_sprites[n].width;
+        texpos += step;
+        dest = address->img.img + (i * address->img.line_length + x * (address->img.bits_per_pixel / 8));
+        dest_2 = address->img_sprites[n].img + ((int)texpos * address->img_sprites[n].line_length + texx * (address->img_sprites[n].bits_per_pixel / 8));
+        *(int *)dest = *(int *)dest_2;
+        i++;
     }
+    return (0);
 }

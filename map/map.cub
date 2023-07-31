@@ -2,8 +2,8 @@
       EA ./sprites/wall2.xpm
       SO ./sprites/wall3.xpm
   WE ./sprites/wall4.xpm
-         F    9, 63, 125
-     C 87, 130, 99,
+         C    9, 63, 125
+     F 87, 130, 99,
 
 
         1111111111111111111111111

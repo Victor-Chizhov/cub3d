@@ -82,8 +82,8 @@ void	check_count_players(char **check_file, t_game *info)
 			if (check_file[i][j] == 'N' || check_file[i][j] == 'S' || check_file[i][j] == 'W' || check_file[i][j] == 'E')
 			{
 				info->players++;
-				info->position_player_x = j;
-				info->position_player_y = i;
+				info->position_player_x = j + 0.5;
+				info->position_player_y = i + 0.5;
                 save_direction_player(info);
 				if (info->players > 1) {
 					printf("In check_count_players Too many players\n");

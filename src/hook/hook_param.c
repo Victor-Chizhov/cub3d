@@ -20,7 +20,7 @@ int	exit_game(t_game *info)
 int	my_keypress_hook(int keycode, t_game *info)
 {
 
-	if (keycode == 13)
+	if (keycode == W)
 	{
         double new_x = info->position_player_x + info->dir_x * info->move_speed;
         double new_y = info->position_player_y + info->dir_y * info->move_speed;
@@ -30,7 +30,7 @@ int	my_keypress_hook(int keycode, t_game *info)
             info->position_player_y = new_y;
         }
 	}
-	else if (keycode == 0)
+	else if (keycode == A)
 	{
         double new_x = info->position_player_x + info->dir_y * info->move_speed;
         double new_y = info->position_player_y - info->dir_x * info->move_speed;
@@ -40,7 +40,7 @@ int	my_keypress_hook(int keycode, t_game *info)
             info->position_player_y = new_y;
         }
 	}
-	else if (keycode == 1)
+	else if (keycode == S)
 	{
         double new_x = info->position_player_x - info->dir_x * info->move_speed;
         double new_y = info->position_player_y - info->dir_y * info->move_speed;
@@ -50,7 +50,7 @@ int	my_keypress_hook(int keycode, t_game *info)
             info->position_player_y = new_y;
         }
 	}
-	else if (keycode == 2)
+	else if (keycode == D)
 	{
         double new_x = info->position_player_x - info->dir_y * info->move_speed;
         double new_y = info->position_player_y + info->dir_x * info->move_speed;
@@ -60,7 +60,7 @@ int	my_keypress_hook(int keycode, t_game *info)
             info->position_player_y = new_y;
         }
 	}
-	else if (keycode == 124)
+	else if (keycode == RIGHT)
 	{
         double old_dir_x = info->dir_x;
         info->dir_x = info->dir_x * cos(info->turn_speed) - info->dir_y * sin(info->turn_speed);
@@ -70,7 +70,7 @@ int	my_keypress_hook(int keycode, t_game *info)
         info->plane_y = old_plane_x * sin(info->turn_speed) + info->plane_y * cos(info->turn_speed);
 
 	}
-	else if (keycode == 123)
+	else if (keycode == LEFT)
 	{
         double old_dir_x = info->dir_x;
         info->dir_x = info->dir_x * cos(-info->turn_speed) - info->dir_y * sin(-info->turn_speed);
@@ -80,7 +80,7 @@ int	my_keypress_hook(int keycode, t_game *info)
         info->plane_y = old_plane_x * sin(-info->turn_speed) + info->plane_y * cos(-info->turn_speed);
 
 	}
-	else if (keycode == 53) {
+	else if (keycode == ESC) {
 		exit_game(info);
 	}
 	return (keycode);

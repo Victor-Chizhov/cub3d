@@ -22,30 +22,27 @@
   <component name="ChangeListManager">
     <list default="true" id="7958a996-2935-45bd-a410-97a0dbce6fb1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cub3D" beforeDir="false" afterPath="$PROJECT_DIR$/cub3D" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/get_next_line/libgnl.a" beforeDir="false" afterPath="$PROJECT_DIR$/get_next_line/libgnl.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/cub3d.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/cub3d.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map/lol_map.cub" beforeDir="false" afterPath="$PROJECT_DIR$/map/lol_map.cub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprites/wall1.xpm" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/wall1.xpm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprites/wall2.xpm" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/wall2.xpm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprites/wall3.xpm" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/wall3.xpm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprites/wall4.xpm" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/wall4.xpm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/map.cub" beforeDir="false" afterPath="$PROJECT_DIR$/map/map.cub" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/create_scene/draw_scene.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/create_scene/draw_scene.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/create_scene/draw_scene.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/create_scene/draw_scene.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/create_scene/init_window_with_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/create_scene/init_window_with_map.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/create_scene/init_window_with_map.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/create_scene/init_window_with_map.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cub3d.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/cub3d.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cub3d.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/cub3d.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hook/hook_param.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/hook/hook_param.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hook/hook_param.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/hook/hook_param.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/check_map.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/check_map.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/check_wall_map.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/check_wall_map.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_attributes.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_attributes.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_map.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_map.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raycasting/ray_casting.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/raycasting/ray_casting.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/raycasting/ray_casting.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/raycasting/ray_casting.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.o" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
