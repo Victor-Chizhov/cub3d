@@ -1,8 +1,8 @@
 NAME = cub3D
 
-
 LIBFT = ./libft/libft.a
 LIBGNL = ./get_next_line/libgnl.a
+
 
 SRCS =	./src/cub3d.c \
 		./src/utils.c \
@@ -11,17 +11,21 @@ SRCS =	./src/cub3d.c \
 		./src/parse_and_valid_map/copy_from_file_map.c \
 		./src/parse_and_valid_map/check_map.c \
 		./src/parse_and_valid_map/check_wall_map.c \
+		./src/parse_and_valid_map/save_direction_player.c \
 		./src/create_scene/init_window_with_map.c \
 		./src/create_scene/draw_scene.c \
 		./src/raycasting/ray_casting.c \
-		./src/hook/hook_param.c
+		./src/raycasting/utils_for_raycasting.c \
+		./src/hook/hook_param.c \
+		./src/hook/move_player.c \
+		./src/hook/rotation_player.c
 
 
 HEADER = ./include/cub3d.h
 
 OBJS = $(SRCS:.c=.o)
 
-CFLAGS = -Werror -Wextra -Wall #-fsanitize=address -g
+CFLAGS = -Werror -Wextra -Wall -fsanitize=address -g
 FLAGS_FOR_MLX = -lmlx -framework OpenGL -framework AppKit
 
 all: $(NAME) $(LIBFT) $(LIBGNL)

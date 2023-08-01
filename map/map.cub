@@ -1,9 +1,9 @@
-      NO ./sprites/wall1.xpm
-      EA ./sprites/wall2.xpm
-      SO ./sprites/wall3.xpm
-  WE ./sprites/wall4.xpm
-         C    9, 63, 125
-     F 87, 130, 99,
+      NO ./sprites/wall_north.xpm
+      EA ./sprites/wall_east.xpm
+      SO ./sprites/wall_south.xpm
+  WE ./sprites/wall_west.xpm
+         C    22, 21, 35
+     F 18, 16, 21,
 
 
         1111111111111111111111111

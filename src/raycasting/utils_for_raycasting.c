@@ -1,36 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   cub3d.c                                            :+:      :+:    :+:   */
+/*   utils_for_raycasting.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vchizhov <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/31 17:18:15 by vchizhov          #+#    #+#             */
-/*   Updated: 2023/07/31 17:19:38 by vchizhov         ###   ########.fr       */
+/*   Created: 2023/08/01 12:09:03 by vchizhov          #+#    #+#             */
+/*   Updated: 2023/08/01 12:10:39 by vchizhov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/cub3d.h"
+#include "../../include/cub3d.h"
 
-void	check_name_file(char *av)
+float	ft_abs(float num)
 {
-	size_t	len;
-	char	*tmp;
-
-	tmp = av;
-	len = ft_strlen(tmp);
-	if (ft_strncmp(&tmp[len - 4], ".cub", len))
-		print_error("Format of file is not valid", 1);
+	if (num < 0)
+		return (-num);
+	return (num);
 }
 
-int	main(int ac, char **av)
+int	find_num_texture(t_game *info)
 {
-	t_game	info;
+	int	n;
 
-	if (ac != 2)
-		print_error("Many arguments", 1);
-	check_name_file(av[1]);
-	init_info(&info);
-	parsing_file(av[1], &info, 0, 0);
-	init_window_with_map(&info);
+	n = 0;
+	if (info->side == 1 && info->ray_dir_y < 0)
+		n = 3;
+	else if (info->side == 1 && info->ray_dir_y > 0)
+		n = 2;
+	else if (info->side == 0 && info->ray_dir_x > 0)
+		n = 1;
+	else if (info->side == 0 && info->ray_dir_x < 0)
+		n = 0;
+	return (n);
 }

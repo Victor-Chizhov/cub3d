@@ -20,29 +20,71 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7958a996-2935-45bd-a410-97a0dbce6fb1" name="Changes" comment="">
+    <list default="true" id="7958a996-2935-45bd-a410-97a0dbce6fb1" name="Changes" comment="WIP">
+      <change afterPath="$PROJECT_DIR$/sprites/wall_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/wall_east.xpm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/wall_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/wall_north.xpm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/wall_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/wall_south.xpm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/wall_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/wall_sprite.xpm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/wall_west.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/wall_west.xpm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hook/move_player.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hook/move_player.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hook/rotation_player.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hook/rotation_player.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parse_and_valid_map/save_direction_player.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parse_and_valid_map/save_direction_player.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/raycasting/utils_for_raycasting.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/raycasting/utils_for_raycasting.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bag_list" beforeDir="false" afterPath="$PROJECT_DIR$/bag_list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-9b5638ca01cfcbc94047.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-07-27T10-42-49-0228.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-rep_for_cub3d-Debug-a7e7f34fec5556c17062.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rep_for_cub3d.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rep_for_cub3d.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rep_for_cub3d.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cub3D" beforeDir="false" afterPath="$PROJECT_DIR$/cub3D" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/get_next_line/libgnl.a" beforeDir="false" afterPath="$PROJECT_DIR$/get_next_line/libgnl.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/cub3d.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/cub3d.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/lol_map.cub" beforeDir="false" afterPath="$PROJECT_DIR$/map/lol_map.cub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/crash_map.cub" beforeDir="false" afterPath="$PROJECT_DIR$/map/crash_map.cub" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map/map.cub" beforeDir="false" afterPath="$PROJECT_DIR$/map/map.cub" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/create_scene/draw_scene.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/create_scene/draw_scene.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/create_scene/draw_scene.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/create_scene/draw_scene.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/create_scene/init_window_with_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/create_scene/init_window_with_map.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/create_scene/init_window_with_map.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/create_scene/init_window_with_map.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create_scene/move_player.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cub3d.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/cub3d.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cub3d.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/cub3d.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hook/hook_param.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/hook/hook_param.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hook/hook_param.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/hook/hook_param.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/check_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/check_map.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/check_map.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/check_map.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/check_wall_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/check_wall_map.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/check_wall_map.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/check_wall_map.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_attributes.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_attributes.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_attributes.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_attributes.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_map.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_map.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/copy_from_file_map.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_and_valid_map/parsing_file_to_map.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/raycasting/ray_casting.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/raycasting/ray_casting.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/raycasting/ray_casting.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/raycasting/ray_casting.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.o" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,13 +157,43 @@
       <workItem from="1690528834373" duration="27000" />
       <workItem from="1690528871547" duration="6060000" />
       <workItem from="1690620622317" duration="13645000" />
+      <workItem from="1690787024320" duration="24427000" />
+      <workItem from="1690875537361" duration="1673000" />
+      <workItem from="1690881073290" duration="1359000" />
     </task>
+    <task id="LOCAL-00001" summary="WIP">
+      <created>1690788252377</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690788252377</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="WIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP" />
   </component>
 </project>

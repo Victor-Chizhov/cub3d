@@ -1209,30 +1209,6 @@ src/create_scene/init_window_with_map.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/init_window_with_map.c.s
 .PHONY : src/create_scene/init_window_with_map.c.s
 
-src/create_scene/move_player.o: src/create_scene/move_player.c.o
-.PHONY : src/create_scene/move_player.o
-
-# target to build an object file
-src/create_scene/move_player.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.o
-.PHONY : src/create_scene/move_player.c.o
-
-src/create_scene/move_player.i: src/create_scene/move_player.c.i
-.PHONY : src/create_scene/move_player.i
-
-# target to preprocess a source file
-src/create_scene/move_player.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.i
-.PHONY : src/create_scene/move_player.c.i
-
-src/create_scene/move_player.s: src/create_scene/move_player.c.s
-.PHONY : src/create_scene/move_player.s
-
-# target to generate assembly for a file
-src/create_scene/move_player.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/create_scene/move_player.c.s
-.PHONY : src/create_scene/move_player.c.s
-
 src/cub3d.o: src/cub3d.c.o
 .PHONY : src/cub3d.o
 
@@ -1280,6 +1256,54 @@ src/hook/hook_param.s: src/hook/hook_param.c.s
 src/hook/hook_param.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/hook/hook_param.c.s
 .PHONY : src/hook/hook_param.c.s
+
+src/hook/move_player.o: src/hook/move_player.c.o
+.PHONY : src/hook/move_player.o
+
+# target to build an object file
+src/hook/move_player.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/hook/move_player.c.o
+.PHONY : src/hook/move_player.c.o
+
+src/hook/move_player.i: src/hook/move_player.c.i
+.PHONY : src/hook/move_player.i
+
+# target to preprocess a source file
+src/hook/move_player.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/hook/move_player.c.i
+.PHONY : src/hook/move_player.c.i
+
+src/hook/move_player.s: src/hook/move_player.c.s
+.PHONY : src/hook/move_player.s
+
+# target to generate assembly for a file
+src/hook/move_player.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/hook/move_player.c.s
+.PHONY : src/hook/move_player.c.s
+
+src/hook/rotation_player.o: src/hook/rotation_player.c.o
+.PHONY : src/hook/rotation_player.o
+
+# target to build an object file
+src/hook/rotation_player.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/hook/rotation_player.c.o
+.PHONY : src/hook/rotation_player.c.o
+
+src/hook/rotation_player.i: src/hook/rotation_player.c.i
+.PHONY : src/hook/rotation_player.i
+
+# target to preprocess a source file
+src/hook/rotation_player.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/hook/rotation_player.c.i
+.PHONY : src/hook/rotation_player.c.i
+
+src/hook/rotation_player.s: src/hook/rotation_player.c.s
+.PHONY : src/hook/rotation_player.s
+
+# target to generate assembly for a file
+src/hook/rotation_player.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/hook/rotation_player.c.s
+.PHONY : src/hook/rotation_player.c.s
 
 src/parse_and_valid_map/check_map.o: src/parse_and_valid_map/check_map.c.o
 .PHONY : src/parse_and_valid_map/check_map.o
@@ -1401,6 +1425,30 @@ src/parse_and_valid_map/parsing_file_to_map.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/parsing_file_to_map.c.s
 .PHONY : src/parse_and_valid_map/parsing_file_to_map.c.s
 
+src/parse_and_valid_map/save_direction_player.o: src/parse_and_valid_map/save_direction_player.c.o
+.PHONY : src/parse_and_valid_map/save_direction_player.o
+
+# target to build an object file
+src/parse_and_valid_map/save_direction_player.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/save_direction_player.c.o
+.PHONY : src/parse_and_valid_map/save_direction_player.c.o
+
+src/parse_and_valid_map/save_direction_player.i: src/parse_and_valid_map/save_direction_player.c.i
+.PHONY : src/parse_and_valid_map/save_direction_player.i
+
+# target to preprocess a source file
+src/parse_and_valid_map/save_direction_player.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/save_direction_player.c.i
+.PHONY : src/parse_and_valid_map/save_direction_player.c.i
+
+src/parse_and_valid_map/save_direction_player.s: src/parse_and_valid_map/save_direction_player.c.s
+.PHONY : src/parse_and_valid_map/save_direction_player.s
+
+# target to generate assembly for a file
+src/parse_and_valid_map/save_direction_player.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/parse_and_valid_map/save_direction_player.c.s
+.PHONY : src/parse_and_valid_map/save_direction_player.c.s
+
 src/raycasting/ray_casting.o: src/raycasting/ray_casting.c.o
 .PHONY : src/raycasting/ray_casting.o
 
@@ -1424,6 +1472,30 @@ src/raycasting/ray_casting.s: src/raycasting/ray_casting.c.s
 src/raycasting/ray_casting.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/raycasting/ray_casting.c.s
 .PHONY : src/raycasting/ray_casting.c.s
+
+src/raycasting/utils_for_raycasting.o: src/raycasting/utils_for_raycasting.c.o
+.PHONY : src/raycasting/utils_for_raycasting.o
+
+# target to build an object file
+src/raycasting/utils_for_raycasting.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/raycasting/utils_for_raycasting.c.o
+.PHONY : src/raycasting/utils_for_raycasting.c.o
+
+src/raycasting/utils_for_raycasting.i: src/raycasting/utils_for_raycasting.c.i
+.PHONY : src/raycasting/utils_for_raycasting.i
+
+# target to preprocess a source file
+src/raycasting/utils_for_raycasting.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/raycasting/utils_for_raycasting.c.i
+.PHONY : src/raycasting/utils_for_raycasting.c.i
+
+src/raycasting/utils_for_raycasting.s: src/raycasting/utils_for_raycasting.c.s
+.PHONY : src/raycasting/utils_for_raycasting.s
+
+# target to generate assembly for a file
+src/raycasting/utils_for_raycasting.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rep_for_cub3d.dir/build.make CMakeFiles/rep_for_cub3d.dir/src/raycasting/utils_for_raycasting.c.s
+.PHONY : src/raycasting/utils_for_raycasting.c.s
 
 src/utils.o: src/utils.c.o
 .PHONY : src/utils.o
@@ -1593,15 +1665,18 @@ help:
 	@echo "... src/create_scene/init_window_with_map.o"
 	@echo "... src/create_scene/init_window_with_map.i"
 	@echo "... src/create_scene/init_window_with_map.s"
-	@echo "... src/create_scene/move_player.o"
-	@echo "... src/create_scene/move_player.i"
-	@echo "... src/create_scene/move_player.s"
 	@echo "... src/cub3d.o"
 	@echo "... src/cub3d.i"
 	@echo "... src/cub3d.s"
 	@echo "... src/hook/hook_param.o"
 	@echo "... src/hook/hook_param.i"
 	@echo "... src/hook/hook_param.s"
+	@echo "... src/hook/move_player.o"
+	@echo "... src/hook/move_player.i"
+	@echo "... src/hook/move_player.s"
+	@echo "... src/hook/rotation_player.o"
+	@echo "... src/hook/rotation_player.i"
+	@echo "... src/hook/rotation_player.s"
 	@echo "... src/parse_and_valid_map/check_map.o"
 	@echo "... src/parse_and_valid_map/check_map.i"
 	@echo "... src/parse_and_valid_map/check_map.s"
@@ -1617,9 +1692,15 @@ help:
 	@echo "... src/parse_and_valid_map/parsing_file_to_map.o"
 	@echo "... src/parse_and_valid_map/parsing_file_to_map.i"
 	@echo "... src/parse_and_valid_map/parsing_file_to_map.s"
+	@echo "... src/parse_and_valid_map/save_direction_player.o"
+	@echo "... src/parse_and_valid_map/save_direction_player.i"
+	@echo "... src/parse_and_valid_map/save_direction_player.s"
 	@echo "... src/raycasting/ray_casting.o"
 	@echo "... src/raycasting/ray_casting.i"
 	@echo "... src/raycasting/ray_casting.s"
+	@echo "... src/raycasting/utils_for_raycasting.o"
+	@echo "... src/raycasting/utils_for_raycasting.i"
+	@echo "... src/raycasting/utils_for_raycasting.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"
