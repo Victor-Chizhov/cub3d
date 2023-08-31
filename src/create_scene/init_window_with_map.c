@@ -6,7 +6,7 @@
 /*   By: vchizhov <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 16:22:04 by vchizhov          #+#    #+#             */
-/*   Updated: 2023/07/31 19:26:29 by vchizhov         ###   ########.fr       */
+/*   Updated: 2023/08/02 15:06:38 by vchizhov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,5 +88,6 @@ void	init_window_with_map(t_game *info)
 	mlx_loop_hook(info->mlx, render_scene, info);
 	mlx_hook(info->mlx_win, 17, 1L << 17, exit_game, info);
 	mlx_hook(info->mlx_win, 2, 1L << 0, my_keypress_hook, info);
+	mlx_hook(info->mlx_win, 6, 1L << 6, my_mouse, info);
 	mlx_loop(info->mlx);
 }

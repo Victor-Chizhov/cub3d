@@ -6,7 +6,7 @@
 /*   By: vchizhov <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 16:13:18 by vchizhov          #+#    #+#             */
-/*   Updated: 2023/07/31 17:27:43 by vchizhov         ###   ########.fr       */
+/*   Updated: 2023/08/02 15:06:10 by vchizhov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ int	check_other_string_of_map(char *string)
 	len = ft_strlen(string);
 	while (string[i] && string[i] == ' ')
 		i++;
-	if (string[0] != '1' && string[len - 1] != '1' && string[i] != ' ')
+	if (string[i] != '1' && string[len - 1] != '1')
 		return (1);
 	return (0);
 }

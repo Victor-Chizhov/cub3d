@@ -3,7 +3,7 @@
       SO ./sprites/wall_south.xpm
   WE ./sprites/wall_west.xpm
          C    22, 21, 35
-     F 18, 16, 21,
+     F 18, 16, 21
 
 
         1111111111111111111111111

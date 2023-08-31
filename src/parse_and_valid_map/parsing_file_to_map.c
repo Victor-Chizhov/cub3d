@@ -6,7 +6,7 @@
 /*   By: vchizhov <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 17:31:12 by vchizhov          #+#    #+#             */
-/*   Updated: 2023/07/31 18:36:42 by vchizhov         ###   ########.fr       */
+/*   Updated: 2023/08/03 15:51:44 by vchizhov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,6 +56,24 @@ void	check_count_players(char **check_file, t_game *info)
 		print_error("Bad count of players", 1);
 }
 
+int	check_color(char const *info)
+{
+	int	i;
+	int	k;
+
+	i = 0;
+	k = 0;
+	while (info[i])
+	{
+		if (info[i] == ',')
+			k++;
+		if (k > 2)
+			return (1);
+		i++;
+	}
+	return (0);
+}
+
 int	convert_colors(char *info)
 {
 	char	**arr;
@@ -63,6 +81,8 @@ int	convert_colors(char *info)
 	int		i;
 
 	i = 0;
+	if (check_color(info))
+		print_error("Color is not correctly", 1);
 	arr = ft_split(info, ',');
 	if (len_pointer_arr(arr) != 3)
 	{

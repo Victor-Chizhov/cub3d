@@ -6,14 +6,14 @@
 /*   By: vchizhov <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/31 17:09:04 by vchizhov          #+#    #+#             */
-/*   Updated: 2023/08/01 13:29:53 by vchizhov         ###   ########.fr       */
+/*   Updated: 2023/08/02 15:07:27 by vchizhov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef CUB3D_H
 # define CUB3D_H
 
-# include "../minilibx/mlx.h"
+# include "../mlx/mlx.h"
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdio.h>
@@ -153,6 +153,7 @@ int		find_num_texture(t_game *info);
 // =============== EXIT GAME ==========================
 
 int		my_keypress_hook(int keycode, t_game *map);
+int		my_mouse(int x, int y, t_game *info);
 int		exit_game(t_game *map);
 void	deleted_sprites(t_game *map);
 
